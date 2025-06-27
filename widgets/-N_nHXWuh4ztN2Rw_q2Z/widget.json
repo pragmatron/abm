@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "dependency": "dataGrid/addresses",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "options": {
+    "addRecordText": "Add Address ",
+    "addRecordsText": "]["
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "addresses"
+  },
+  "styles": "",
+  "subtab": "-N_nHXUZ1NhtwJ9N6uBH",
+  "tab": "-OLqWdly_g1YV4q6dCSu",
+  "title": "",
+  "type": "DataGrid"
+}

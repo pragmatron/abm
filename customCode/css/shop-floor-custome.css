@@ -1,0 +1,46 @@
+.data-grid__filter{
+    /* background-color:#fafafb; */
+  }
+  
+  .v-select .vs__dropdown-toggle{
+    height:32px;
+  }
+  .form-control{
+    height:32px;
+    /* background:#fafafb; */
+  }
+  .widget-card-list__item > .card{
+    border-radius:10px;
+    padding:.2em;
+    box-shadow: 0px 1px 0px 0px #11142D0A;
+    border:1px solid #E7E8EA;
+    min-height: 128px;
+  }
+ 
+  .pagination.b-pagination{
+  height: 32px!important;
+  border-radius:10px;
+  padding-left:0.5em!important;
+  }
+  .vue-grid-item{
+    min-height: 100% !important; 
+  }
+  .vue-grid-layout{
+    left:-21px;
+    max-height: 100vh;
+    min-width: 100%;
+  }
+  .vs__search{
+    margin:0px!important;
+    font-size:12px;
+  }
+  .form-control{
+    font-size: 12px;
+  }
+  .filterItem__label{
+    margin-bottom: 3px;
+  }
+
+  .table-rows{
+    overflow: hidden !important
+    }

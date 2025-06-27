@@ -1,0 +1,19 @@
+{
+  "component": "-NsnhNnLq7GKaK8S3s7P",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 5,
+    "w": 24,
+    "x": 0,
+    "y": 17
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "colors": "{ \"doEval\": true, \"value\": \"this.row.$colors\" }",
+    "expression": ""
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

@@ -1,0 +1,17 @@
+{
+  "container": "-OHmn6AbqZck3_5v-d9L",
+  "dependency": "dataGrid/classNames",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "classNames"
+  },
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

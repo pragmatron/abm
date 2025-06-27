@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/maintenanceTasks",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "maintenanceTasks"
+  },
+  "subtab": "-O0atEnWJDOL3a2tPRkS",
+  "tab": "-NuUI-yPnsfXVcYIkjEz",
+  "type": "DataGrid"
+}

@@ -1,0 +1,10 @@
+{
+  "colorField": "",
+  "dataSource": "opportunityLines",
+  "displayMode": "timeGridWeek",
+  "durationField": "totalEstimatedHours",
+  "endField": "",
+  "nameField": "",
+  "startField": "scheduledStartTime",
+  "userField": "owner"
+}

@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "options": {
+    "addRecordText": "Add Quote Line & Open "
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "quoteLines"
+  },
+  "styles": "",
+  "subtab": "-NnmsM3qPVLb4yA24qWW",
+  "tab": "-NnmsKcNUmAqZF3LO6JU",
+  "title": "",
+  "type": "DataGrid"
+}

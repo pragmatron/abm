@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/nCR",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "nCR"
+  },
+  "subtab": "-Nqlz54x8tOnIE2ncFxB",
+  "tab": "-Nqlz2CjfHcIy_1RTtvV",
+  "type": "DataGrid"
+}

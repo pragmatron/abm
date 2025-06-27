@@ -1,0 +1,22 @@
+{
+  "component": "-Nr_ZB-9YViJOh3sxb08",
+  "gsOptions": {
+    "h": 6,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "icon": "fas fa-dollar-sign",
+    "tableName": "opportunities",
+    "target": "80000",
+    "timePeriod": "today",
+    "title": "Total Sales",
+    "valueForBar": "totalQuoteLinePrice"
+  },
+  "tab": "-NZQQaXubwP2EQjuVATC",
+  "type": "custom"
+}

@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/operationsStage",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "operationsStage"
+  },
+  "subtab": "-Nha4Ie3srpgx0goVGt4",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

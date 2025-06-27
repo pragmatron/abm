@@ -1,0 +1,156 @@
+.board-component__left-headers {
+    font-size: 14px !important;
+    background-color: white !important;
+    color: rgba(74,85,104,1) !important;
+    border-bottom: none;
+    border-left: none;
+    text-align: left;
+    min-width: 50px !important;
+}
+
+.board-component__headers {
+    background-color: white!important;
+    color: rgba(74,85,104,1) !important;
+    border: none !important;
+    text-align: left;
+}
+
+#board-component__headers_thead {
+    border: none !important;
+}
+
+.board-component__cell {
+    border: 1px solid #ccc;
+}
+
+.sortable-inner-component {
+  min-height: 8px !important;
+}
+
+.card-container,
+.card-section {
+    display: flex;
+}
+
+.card-inner,
+.card-row {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tag {
+    padding: 2px 8px; 
+    border-radius: 12px; 
+    height: 24px; 
+    width: fit-content; 
+    margin: 10px 0px;
+}
+
+.tag-purple {
+    background: #5755d9;
+}
+
+.tag-light-purple {
+    background: #5755d9
+}
+
+.tag-green,
+.tag-light-green {
+    background: #34C157
+}
+
+.card-bar {
+
+    width: 5px; 
+    margin-right: 10px; 
+    border-radius: 12px;
+}
+
+.card-bar-blue {
+    background: #5755d9;
+}
+
+.card-bar-green {
+    background: rgb(85, 217, 116);
+}
+
+.card-title {
+    font-family: Noto Sans; 
+    font-size: 14px; 
+    font-weight: 500; 
+    line-height: 14px; 
+    text-align: left; 
+    margin-bottom: 10px
+}
+
+.company-name {
+    display: flex;
+    font-size: 12px; 
+    font-weight: 500; 
+    border-radius: 12px; 
+    padding: 5px; 
+    width: fit-content;
+    margin-left: 10px;
+}
+
+.company-name-green {
+    background: rgba(85, 217, 105, 0.4); 
+    color: rgb(85, 217, 116);
+}
+
+.company-name-blue {
+    background: rgba(87, 85, 217, 0.4);
+    color: rgba(87, 85, 217, 1);
+}
+
+.card-section-title,
+.card-section-subtitle {
+    font-family: Noto Sans; 
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 14px; 
+    text-align: left; 
+    margin: 0px
+}
+
+.card-section-subtitle {
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.tag-text {
+    font-family: Noto Sans;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: white;
+}
+/* .board-component__cell {
+    background-color: #FFF2D7 !important;
+} */
+
+.sortable-inner-component__small_template {
+    background-color: blue !important;
+    /* display: none !important; */
+    display: none !important;
+    min-height:10px !important;
+}
+
+.sortable-container {
+    min-height: 10px;
+    height: 95%;
+    overflow: hidden !important;
+}
+
+.board-component__cell{
+
+    overflow: hidden !important;
+}

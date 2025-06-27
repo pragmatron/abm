@@ -1,0 +1,69 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NxK6TYiUvPg4n7AZrmB",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1715119884786",
+        "x": 170,
+        "y": 92,
+        "name": "start-event",
+        "label": "Start Event",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1715119886924",
+        "x": 598,
+        "y": 172,
+        "name": "script-task",
+        "label": "Script Task",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "9d67c0a2-445b-4534-9abd-97d4808f3e82",
+        "source": "node1715119884786",
+        "target": "node1715119886924",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": -48,
+      "y": 83,
+      "scale": 0.9,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "default",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": true,
+  "name": "API",
+  "schema": "{\"swagger\":\"2.0\",\"info\":{\"title\":\"API\"},\"host\":\"us-central1-tangledev00.cloudfunctions.net\",\"basePath\":\"/webhook/undefined\",\"schemes\":[\"https\"],\"consumes\":[\"application/json\"],\"produces\":[\"application/json\"],\"paths\":{\"undefined\":{\"post\":{\"tags\":[],\"description\":\"\",\"produces\":[\"application/json\"],\"parameters\":[],\"responses\":{\"200\":{\"description\":\"response\",\"schema\":{\"type\":\"object\",\"properties\":{}}}}}}}}"
+}

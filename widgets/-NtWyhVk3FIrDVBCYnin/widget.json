@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/partOptions",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "partOptions"
+  },
+  "subtab": "-NtWyhS-m_1QXZf1Dt3r",
+  "tab": "-N_dHWeF8um-thlGP_lt",
+  "type": "DataGrid"
+}

@@ -1,0 +1,17 @@
+{
+  "container": "-ONoYbky_-Ubgp7bunaP",
+  "dependency": "dataGrid/productsServices",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "productsServices"
+  },
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

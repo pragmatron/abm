@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/rootCauseCategory",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "rootCauseCategory"
+  },
+  "subtab": "-Nr5HNo--WoSQpsWuFvV",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/pOStatus",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "pOStatus"
+  },
+  "subtab": "-NhXJi6SqDN4r9SZYECH",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

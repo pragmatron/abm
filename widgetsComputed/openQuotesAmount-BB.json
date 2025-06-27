@@ -1,0 +1,4 @@
+{
+  "shouldUpdate": "const today = new Date();\r\nlet filteredQuotes = $getGrid('quotes') || [];\r\n\r\nif (!filteredQuotes.length) {\r\n  return 0;\r\n}\r\n\r\nif (dateFilter === 'thisMonth') {\r\n  const firstDayOfMonth = new Date(today.getFullYear(), today.getMonth(), 1);\r\n  filteredQuotes = filteredQuotes.filter(q => new Date(q.quoteDate) >= firstDayOfMonth);\r\n}\r\n\r\nif (dateFilter === 'thisYear') {\r\n  const firstDayOfYear = new Date(today.getFullYear(), 0, 1);\r\n  filteredQuotes = filteredQuotes.filter(q => new Date(q.quoteDate) >= firstDayOfYear);\r\n}\r\n\r\nreturn filteredQuotes\r\n  .filter(q => q.$state$display === 'OPEN')\r\n  .reduce((acc, q) => acc + parseFloat(q.totalQuoteLinePrice || 0), 0);\r\n",
+  "value": ""
+}

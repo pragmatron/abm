@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/suggestedOrders",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "suggestedOrders"
+  },
+  "subtab": "-Nv2LVBRWBJnD1O2q0-H",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "DataGrid"
+}

@@ -1,0 +1,21 @@
+a[aria-label*='OshCut Basic'] {
+  background-color: rgba(250, 202, 140, 0.808) !important;
+  color: rgb(0, 0, 0);
+}
+
+
+a[aria-label*='CNC Basic'] {
+  background-color: rgba(143, 24, 15, 0.401) !important;
+  color: rgb(0, 0, 0);
+}
+a[aria-label*='SENT'] {
+  background-color: rgba(255, 179, 0, 0.484) !important;
+  color: rgb(0, 0, 0);
+}
+a[aria-label*='OPEN'] {
+  background-color: rgba(167, 167, 167, 0.484) !important;
+  color: rgb(0, 0, 0);
+}
+  a[aria-label*='CLONED'] {
+   background-color: rgba(255, 255, 255, 0.484) !important;
+  color: rgb(0, 0, 0);

@@ -1,0 +1,27 @@
+{
+  "dataProvider": "upcomingDemand",
+  "name": "demand",
+  "options": {
+    "aggregatorName": "Count",
+    "colOrder": "key_a_to_z",
+    "rendererName": "Table Barchart",
+    "currentColor": {
+      "text": "green",
+      "color": "45, 206, 137"
+    },
+    "currentCurrency": {
+      "text": "",
+      "val": "",
+      "before": "",
+      "after": ""
+    },
+    "showUI": true,
+    "cols": [
+      "$createdDate$YearWeek"
+    ],
+    "rows": [
+      "product"
+    ],
+    "vals": []
+  }
+}

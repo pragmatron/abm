@@ -1,0 +1,9 @@
+{
+  "expandedByDefault": false,
+  "icon": {
+    "color": "rgba(54, 162, 235, 1)",
+    "name": "truck"
+  },
+  "order": 0,
+  "title": "Shipping"
+}

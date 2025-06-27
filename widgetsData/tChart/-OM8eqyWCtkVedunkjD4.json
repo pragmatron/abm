@@ -1,0 +1,23 @@
+{
+  "chartName": "Sales By Customer",
+  "chartType": "horizontalBar",
+  "groupBy": [
+    {
+      "column": "soldToCustomer",
+      "key": "-OM8f18NWjQC4BY5nuvu"
+    }
+  ],
+  "metrics": [
+    {
+      "column": "totalQuoteLinePrice",
+      "format": "$0,0.00",
+      "key": "-OM8f-DSnOS6aPEWorGo",
+      "operator": "sum"
+    }
+  ],
+  "sortAxis": "y",
+  "sortDirectionAxis": "DESC",
+  "stackedMetrics": {
+    "stacked": false
+  }
+}

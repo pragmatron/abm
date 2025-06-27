@@ -1,0 +1,82 @@
+{
+  "autoHeight": true,
+  "classes": "",
+  "containerTabs": [
+    {
+      "key": "-N_s-yNV0Kak66lPm0bK",
+      "title": "Customer Groups"
+    },
+    {
+      "key": "-N_s5Bgic8zIfSx0AjK7",
+      "title": "Currencies"
+    },
+    {
+      "key": "-N_sGL6qz5cjXn9mpVXK",
+      "title": "Index Offsets"
+    },
+    {
+      "key": "-N_svfTjbUl5yGgG-opg",
+      "title": "Sales Groups"
+    },
+    {
+      "key": "-NbZDJHSK5dGmAqm1SNq",
+      "title": "Part Types"
+    },
+    {
+      "key": "-NbZqhHZC6H-u4F-2Her",
+      "title": "Carrier"
+    },
+    {
+      "key": "-O8gL686QT0aXMKubxji",
+      "title": "Shipping Term"
+    },
+    {
+      "key": "-NcMt8haIJFvtwxL_PzI",
+      "title": "Release Types"
+    },
+    {
+      "key": "-NdjrC2tlIp-2UHFX3UJ",
+      "title": "Terms"
+    },
+    {
+      "key": "-Ndk9qApvqHXO7cP0v_s",
+      "title": "Material Categories"
+    },
+    {
+      "key": "-NeJB4ApiMGlRis1vb0Q",
+      "title": "Sales Order Status"
+    },
+    {
+      "key": "-OHmn6AbqZck3_5v-d9L",
+      "title": "Class"
+    },
+    {
+      "key": "-ONPfsgiEmj3J-XaUFVN",
+      "title": "Complaint Stage"
+    },
+    {
+      "key": "-ONoQV2rE4nU20aJKwHM",
+      "title": "Vendor Group "
+    },
+    {
+      "key": "-ONoYbky_-Ubgp7bunaP",
+      "title": "Products / Services "
+    },
+    {
+      "key": "-ONok90abGxagA4iy3S7",
+      "title": "Salesperson"
+    }
+  ],
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto;",
+  "styles": "",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "title": "",
+  "type": "container"
+}

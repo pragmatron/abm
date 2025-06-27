@@ -1,0 +1,19 @@
+{
+  "component": "-MpwsXzsgFvh22UWWJmZ",
+  "container": "-Ne7trfoR1DSu_-FXs42",
+  "gsOptions": {
+    "h": 1,
+    "w": 12,
+    "x": 12,
+    "y": 0
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "customClass": "",
+    "customStyle": "",
+    "value": "{ \"doEval\": true, \"value\": \"this.row.$type$display\" }"
+  },
+  "tab": "-Ne7p3hQrEFoeEmmcGdt",
+  "type": "custom"
+}

@@ -1,0 +1,10 @@
+.control_feacd250-de7a-11ef-9e43-45d690f21a2d img,
+.control_81e722b0-b39d-11ee-819e-6bf5f66f2f4b img,
+.control_a5da1b70-6da5-11ee-a890-67eaae91380a img {
+  width: 200px !important;
+  height: 120px !important;       /* Force height to match carousel */
+  object-fit: cover !important;   /* Crop to remove white space */
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  display: block;
+}

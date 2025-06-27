@@ -1,0 +1,16 @@
+{
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "receiptLines"
+  },
+  "subtab": "-Nq3vGCar2aRFr0e9et-",
+  "tab": "-Nr17W8bgHH-tNTv5GOK",
+  "type": "DataGrid"
+}

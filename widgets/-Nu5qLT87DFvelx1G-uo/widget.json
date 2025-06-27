@@ -1,0 +1,20 @@
+{
+  "component": "-NswbQw1UlrQnBgQJOIj",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 2,
+    "w": 2,
+    "x": 0,
+    "y": 3
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "expression": "",
+    "optionsString": "30 fixed, 36 fixed, adjustable",
+    "selectText": "Height"
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

@@ -1,0 +1,43 @@
+{
+  "addCellHeaderTemplate": true,
+  "addCustomComputedProperty": false,
+  "allowUserSpecificLeftHeaders": false,
+  "allowUserSpecificTopHeaders": false,
+  "blankColumnDisplayName": "",
+  "blankRowDisplayName": "",
+  "blockDragging": false,
+  "blockHorizontalDragging": false,
+  "blockVerticalDragging": false,
+  "cardBackgroundColorCoding": "return '#FFF'",
+  "cardClassBindings": "",
+  "cellBackgroundColorCoding": "return '#FFF'",
+  "cellHeaderTemplate": "<h2 style=\"font-size: 11px; font-weight:400; background: rgb(85, 217, 116); padding: 3px; border-radius: 10px; color: white;\"> <b>Capacity is {{headerX.capacity ? headerX.capacity : 0}}</b><b> and total minutes are {{getSumOfProperty(headerX, headerY, 'minutes')}}</b></h2>",
+  "customComputedProperty": "",
+  "editCardFunction": "",
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"name\",\"operator\":\"contains\",\"value\":\"\",\"name\":\"Name\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"part\",\"operator\":\"=\",\"value\":null,\"name\":\"Part\",\"expression\":false,\"hidden\":false}]}",
+  "itemsStorage": "assemblies",
+  "laneCol": "resourceGroup",
+  "lanesStorage": "assemblies",
+  "leftLaneCol": "operator",
+  "showLeftHeaderTooltips": false,
+  "showLeftHeaderTotals": true,
+  "showTopHeaderTooltips": false,
+  "showTopHeaderTotals": true,
+  "smallTemplate": "",
+  "template": "<div class=\"card-container\">\r\n    <span class=\"card-bar card-bar-green\"></span>\r\n    <div class=\"card-inner\">\r\n        <div class=\"flex-grow-1 card-row\">\r\n            <div class=\"flex-grow-1 card-top\">\r\n                <p class=\"card-title\">{{item.name}}</p>\r\n                <span class=\"company-name company-name-green\">{{item.$customer$display || item.$workOrder?.$customer$display}}</span>\r\n            </div>\r\n            <div class=\" flex-grow-1 card-section\"></div>\r\n            <div class=\" flex-grow-1 card-section\"></div>\r\n        </div>\r\n        <div class=\"flex-grow-1 card-row\">\r\n            <div class=\"flex-grow-1 card-section\">\r\n                <p class=\"card-section-title\">Stage Is:</p>\r\n                <p class=\"card-section-subtitle\">{{item.$stage$display}}</p>\r\n            </div>\r\n            <div class=\" flex-grow-1 card-section\"></div>\r\n            <div class=\" flex-grow-1 card-section\"></div>\r\n        </div>\r\n        <div class=\"flex-grow-1 card-row\">\r\n            <div class=\"flex-grow-1 card-section tag tag-green\">\r\n                <h4 class=\"tag-text\">Minutes: {{item.minutes}}</h4>\r\n            </div>\r\n            <div class=\" flex-grow-1 card-section tag tag-light-green\">\r\n                <h4 class=\"tag-text\">{{item.$part$display}}</h4>\r\n            </div>\r\n            <div class=\" flex-grow-1 card-section\"></div>\r\n        </div>\r\n    </div>\r\n</div>",
+  "titleCol": "name",
+  "visibleLanes": [
+    "_BLANK",
+    "-Nlc4Nd7mzzylvJdEOSw",
+    "-Nhg_PRjp9rtXvMaysxs",
+    "-Nlc4af0vf9-aAZKITi_",
+    "-NsJkJ-3Uitg2DfaGne5"
+  ],
+  "visibleLeftLanes": [
+    "_BLANK",
+    "-Nhc2I7dGXFnHzR6tQ0C",
+    "-Nhc2I7gTxGLewYVzAu-",
+    "-Nhc2I7sp1WwUmZlbR_C",
+    "-Nhc2I86gCbA-YHI85DF"
+  ]
+}

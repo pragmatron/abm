@@ -1,0 +1,29 @@
+a[aria-label*='New'] {
+  background-color: #bdd5ea !important;  /* Faded Blue */
+  color: #000;
+}
+
+a[aria-label*='Planned'] {
+  background-color: #fff4b8 !important;  /* Dusty Yellow */
+  color: #000;
+}
+
+a[aria-label*='In Progress'] {
+  background-color: #b2dbbf !important;  /* Pale Sage Green */
+  color: #000;
+}
+
+a[aria-label*='Hold'] {
+  background-color: #ffe0ac !important;  /* Tan/Apricot */
+  color: #000;
+}
+
+a[aria-label*='Closed'] {
+  background-color: #d3d3d3 !important;  /* Soft Gray */
+  color: #000;
+}
+
+a[aria-label*='Cancelled'] {
+  background-color: #f7a9a8 !important;  /* Pale Clay Red */
+  color: #000;
+}

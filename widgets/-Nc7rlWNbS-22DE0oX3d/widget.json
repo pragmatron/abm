@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/printedWorkOrder",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "printedWorkOrder"
+  },
+  "subtab": "-Nc7rlUYvdivUcWvo86J",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

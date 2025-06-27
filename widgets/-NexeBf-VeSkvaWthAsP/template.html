@@ -1,0 +1,45 @@
+<template>
+  <div>
+    <b-form-input v-model="customerFilter" placeholder="Filter by Customer"></b-form-input>
+
+    <b-button @click="downloadCSV">Download CSV</b-button>
+    <b-button @click="downloadExcel">Download Excel</b-button>
+
+
+    <b-table :items="filteredOpportunityLines" ></b-table>
+
+  </div>
+</template>
+
+<script>
+
+module.exports = {
+  data() {
+    return {
+      customerFilter: '',
+
+    };
+  },
+  computed: {
+    filteredOpportunityLines() {
+      const opportunityLines = $getGrid('opportunityLines');
+      const customers = $getGrid('customers');
+
+      // Assuming opportunityLines have a customerID field that matches with customers table.
+      const query = `
+        SELECT top 20 [$customer$display], PO,      name as salesOrder, [$part$display],seralNumber as serialNumber, [$createdDate$Date], scheduledEnd  from ? order by name desc  `;
+      const filter = `%${this.customerFilter}%`;
+      return alasql(query, [opportunityLines, customers, filter]);
+    }
+  },
+  
+  methods: {
+    downloadCSV() {
+      alasql('SELECT name INTO CSV("table.csv", {headers:true}) FROM ?', [this.filteredOpportunityLines]);
+    },
+    downloadExcel() {
+      alasql('SELECT name INTO XLSX("table.xlsx", {headers:true}) FROM ?', [this.filteredOpportunityLines]);
+    }
+  }
+};
+</script>

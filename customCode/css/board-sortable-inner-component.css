@@ -1,0 +1,16 @@
+.sortable-inner-component {
+    box-shadow:  0 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: none!important;
+
+    padding: 16px;
+    margin-bottom: 10px !important ;
+}
+
+.sortable-inner-component .sortable-item  .ui-sortable-handle{
+    border-radius: 12px !important;
+}
+
+.sortable-inner-component__open_detail{
+    height: auto!important;
+}

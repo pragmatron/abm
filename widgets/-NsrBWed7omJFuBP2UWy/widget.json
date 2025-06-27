@@ -1,0 +1,22 @@
+{
+  "component": "-NsqZOysAiO-7lubjliy",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 2,
+    "w": 3,
+    "x": 0,
+    "y": 0
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "fullWidth": true,
+    "isOutlined": false,
+    "size": "md",
+    "text": "{ \"doEval\": true, \"isExpression\": true, \"value\": \"Back\" }",
+    "variant": "light"
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

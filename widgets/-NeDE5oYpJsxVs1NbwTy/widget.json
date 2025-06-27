@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/resources",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "resources"
+  },
+  "subtab": "-NeDE5mIq8a7nUWIAsQ8",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

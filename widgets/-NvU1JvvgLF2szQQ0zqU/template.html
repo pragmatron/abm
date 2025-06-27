@@ -1,0 +1,114 @@
+<template>
+  <div>
+    <b-table striped bordered :items="timeSlots" :fields="fields" responsive="sm">
+      <template #cell(time)="data">
+        {{ data.item.time }}
+      </template>
+      <template v-for="field in employeeFields" #[`cell(${field.key})`]="data">
+        <draggable
+          class="draggable-container"
+          :list="data.item[field.key]"
+          group="tasks"
+          @start="dragging = true"
+          @end="dragging = false"
+        >
+          <div
+            v-for="task in data.item[field.key]"
+            :key="task.id"
+            class="task"
+            :style="{ height: taskHeight(task.duration) + 'px', backgroundColor: task.color }"
+          >
+            {{ task.title }} ({{ task.startTime }} - {{ task.endTime }})
+          </div>
+        </draggable>
+      </template>
+    </b-table>
+  </div>
+</template>
+
+<script>
+
+
+module.exports =  {
+
+  data() {
+    return {
+      dragging: false,
+      fields: [
+        { key: 'time', label: 'Time' },
+        // Add all employee names as fields here...
+        { key: 'lg-print', label: 'LG PRINT' },
+        { key: 'sm-print', label: 'SM PRINT' },
+        { key: 'joe-q', label: 'JOE Q' },
+        { key: 'walter', label: 'WALTER' },
+        { key: 'scott', label: 'SCOTT' }
+      ],
+      tasks: [
+        // Your tasks data
+        { id: 1, title: 'Task 1', person: 'joe-q', startTime: '08:00', endTime: '09:30', duration: 1.5, color: '#d9534f' },
+        // ... other tasks
+      ]
+    };
+  },
+  computed: {
+    employeeFields() {
+      return this.fields.filter(f => f.key !== 'time');
+    },
+    timeSlots() {
+      // Here you generate the timeslots for the day, assuming 30 min intervals and a 7am - 5pm schedule
+      const slots = [];
+      for (let hour = 7; hour <= 17; hour++) {
+        slots.push({ time: `${hour.toString().padStart(2, '0')}:00` });
+        slots.push({ time: `${hour.toString().padStart(2, '0')}:30` });
+      }
+      // Assign tasks to the corresponding time slots
+      this.assignTasksToTimeSlots(slots, this.tasks);
+      return slots;
+    }
+  },
+  methods: {
+    assignTasksToTimeSlots(slots, tasks) {
+      for (const slot of slots) {
+        for (const field of this.employeeFields) {
+          slot[field.key] = tasks.filter(task => {
+            return this.isTimeInRange(slot.time, task.startTime, task.endTime) && task.person === field.key;
+          });
+        }
+      }
+    },
+    isTimeInRange(time, startTime, endTime) {
+      const [hours, minutes] = time.split(':');
+      const currentTime = parseInt(hours, 10) * 60 + parseInt(minutes, 10);
+      const [startHours, startMinutes] = startTime.split(':');
+      const [endHours, endMinutes] = endTime.split(':');
+      const startTimeInMinutes = parseInt(startHours, 10) * 60 + parseInt(startMinutes, 10);
+      const endTimeInMinutes = parseInt(endHours, 10) * 60 + parseInt(endMinutes, 10);
+      return currentTime >= startTimeInMinutes && currentTime < endTimeInMinutes;
+    },
+    taskHeight(duration) {
+      // Assuming 20 pixels per 30 minutes
+      return duration * 40; // 1.5 hours * 40 pixels
+    }
+  }
+};
+</script>
+
+<style scoped>
+.draggable-container {
+  min-height: 40px; /* minimum height for a 30-minute slot */
+}
+
+.task {
+  cursor: grab;
+  position: absolute;
+  width: 80px;
+  box-sizing: border-box;
+  padding: 2px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  user-select: none;
+}
+
+/* Styles for your table */
+</style>

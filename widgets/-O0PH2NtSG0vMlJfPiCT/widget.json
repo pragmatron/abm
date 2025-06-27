@@ -1,0 +1,14 @@
+{
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "parts"
+  },
+  "subtab": "-O0PH2J2WHAomPGW20rK",
+  "tab": "-N_dHWeF8um-thlGP_lt",
+  "type": "DataGrid"
+}

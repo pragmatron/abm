@@ -1,0 +1,124 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-O2V281HEJB7J9zWCqvm",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1721745854995",
+        "x": 149,
+        "y": 509,
+        "name": "start-event",
+        "label": "Start Event",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1721745856891",
+        "x": 547,
+        "y": 596,
+        "name": "script-task",
+        "label": "soap server",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": ""
+        },
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1721745859453",
+        "x": 1054,
+        "y": 644,
+        "name": "script-task",
+        "label": "process",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": ""
+        },
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1721745871941",
+        "x": 1570,
+        "y": 490.00000000000006,
+        "name": "end-event",
+        "label": "End Event",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "b86e6e6b-b92a-41a4-9d3a-b5d42897e0bd",
+        "source": "node1721745854995",
+        "target": "node1721745856891",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Start Event",
+        "targetLabel": "soap server",
+        "style": {}
+      },
+      {
+        "id": "0920817d-5f74-498e-8472-b9ced546075a",
+        "source": "node1721745856891",
+        "target": "node1721745859453",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "soap server",
+        "targetLabel": "process",
+        "style": {}
+      },
+      {
+        "id": "b6f024b1-abfb-49b6-b63a-6d2734d99d8a",
+        "source": "node1721745859453",
+        "target": "node1721745871941",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "process",
+        "targetLabel": "End Event",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": -627,
+      "y": -55,
+      "scale": 0.7,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "default",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": false,
+  "name": "sendToQbDesktop"
+}

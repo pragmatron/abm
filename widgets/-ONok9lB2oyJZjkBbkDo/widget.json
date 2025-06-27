@@ -1,0 +1,16 @@
+{
+  "container": "-ONok90abGxagA4iy3S7",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "salesperson"
+  },
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

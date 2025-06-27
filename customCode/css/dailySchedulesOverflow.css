@@ -1,0 +1,10 @@
+/* for showing calendar pop up as z -index didnt work 
+    select all but first grid item which is the board
+*/
+.vue-grid-layout > .vue-grid-item ~ .vue-grid-item {
+    overflow: visible !important;
+}
+
+.date-range-picker {
+    border: none !important;
+}

@@ -1,0 +1,48 @@
+<template>
+  <div id="form-container">
+    <div v-for="item in jsonData" :key="item.id" class="form-group">
+      <label :for="item.id">{{ item.prompt }}</label>
+      <input
+        v-if="item.type === 'text'"
+        type="text"
+        :id="item.id"
+        v-model="item.value"
+      />
+      <input
+        v-if="item.type === 'checkbox'"
+        type="checkbox"
+        :id="item.id"
+        v-model="item.value"
+      />
+      <input
+        v-if="item.type === 'target-level'"
+        type="number"
+        :id="item.id"
+        :min="item.minValue"
+        :max="item.maxValue"
+        v-model="item.actualValue[0].value"
+      />
+    </div>
+  </div>
+</template>
+
+<script>
+module.exports =  {
+  data() {
+    return {
+      jsonData: [
+        { id: "fb4acddb-ea73-44f6-aff5-8b4c219eb6f8", type: "text", value: "", prompt: "Date", version: 1, description: "Record date production started" },
+        { id: "f045ec58-8d1f-4073-8592-7cefcdfbaa32", type: "checkbox", value: false, prompt: "Screen verification", version: 1, description: "Verify filter screen is clean and free of damage" },
+        { id: "b610e7a7-fba8-48cc-b857-000fae028653", type: "checkbox", value: false, prompt: "Screen Validation", version: 1, description: "Supervisor validates that screen passed inspection for damage and soil" },
+        { id: "8b2d2fa6-f827-4f4e-9d1f-0c16e41f459b", type: "checkbox", value: false, prompt: "Label Verification", version: 1, description: "Packaging team member verifies labels are correct to kombucha being ran" },
+        { id: "e840d56e-bb1e-4495-bddf-155e04358bdd", type: "checkbox", value: false, prompt: "Label Validation", version: 1, description: "Supervisor validates that labels were inspected and confirmed to be correct" },
+        { id: "ef57324e-dcbd-456d-aa98-5cee2ddcd234", type: "checkbox", value: false, prompt: "First off line approval", version: 1, description: "Supervisor inspects first bottle for sale to ensure it is fit for sale, check for label, appearance and  clearly printed date on label" },
+        { id: "958cb42e-3747-45bc-8e27-963cb5f2b388", type: "target-level", prompt: "CO2 Test", version: 1, maxValue: 2.5, minValue: 1.8, actualValue: [{ value: 0 }], targetValue: 2.2 },
+        { id: "217b0bed-6d9c-48d0-91f0-74bfc345547c", type: "target-level", prompt: "Cap Torque", version: 1, maxValue: 18, minValue: 8, actualValue: [{ value: 0 }], description: "Test Cap seal using safe pak torque tester", targetValue: 12 },
+        { id: "f96d1d19-cea3-470d-8bad-417a4d9e38c2", type: "target-level", prompt: "Fill Weight", version: 1, maxValue: 500, minValue: 470, actualValue: [{ value: 0 }], description: "Weigh packaged Kombucha to ensure proper fill volumes", targetValue: 485 },
+        { id: "c5767572-7f92-4e7d-b3eb-a997c5dc40d0", type: "checkbox", value: false, prompt: "Last off line approval ", version: 1, description: "Supervisor inspects last bottle for sale to ensure it is fit for sale, check for label, appearance and clearly printed date on label." }
+      ]
+    }
+  }
+}
+</script>

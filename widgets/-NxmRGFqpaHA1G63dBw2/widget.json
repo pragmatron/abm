@@ -1,0 +1,20 @@
+{
+  "component": "-NxmQsjYuxFWzueKOHga",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 2,
+    "w": 9,
+    "x": 0,
+    "y": 22
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "expression": "",
+    "optionsString": "Wood, Laminate, Laminate With Gloss",
+    "selectText": "Top"
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

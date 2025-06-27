@@ -1,0 +1,21 @@
+{
+  "component": "-Np5ZL8mlj-wNDd_UP9I",
+  "gsOptions": {
+    "h": 7,
+    "w": 4,
+    "x": 4,
+    "y": 6
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "backgroundColor": "",
+    "code": "$setCurrentTab('-NZQQnMdVaJBohxveByo')",
+    "icon": "fas fa-coins",
+    "iconAndTextColor": "#5297ff",
+    "name": "Sales"
+  },
+  "tab": "-NZQQaXubwP2EQjuVATC",
+  "type": "custom"
+}

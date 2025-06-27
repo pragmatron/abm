@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/nCRStage",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "nCRStage"
+  },
+  "subtab": "-Nr595q5lG8gJPOaqnNv",
+  "tab": "-Nqlz2CjfHcIy_1RTtvV",
+  "type": "DataGrid"
+}

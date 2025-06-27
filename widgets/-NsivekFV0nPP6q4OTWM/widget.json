@@ -1,0 +1,22 @@
+{
+  "component": "-NelegOxH99HNaJzZgkJ",
+  "container": "-NsiGCX5DA6lyrPy1TST",
+  "gsOptions": {
+    "h": 2,
+    "w": 24,
+    "x": 0,
+    "y": 7
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "fullWidth": true,
+    "isOutlined": true,
+    "size": "lg",
+    "text": "{ \"doEval\": true, \"isExpression\": true, \"value\": \"View Details\" }",
+    "variant": "primary"
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

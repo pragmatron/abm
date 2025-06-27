@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/homeIcons",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "homeIcons"
+  },
+  "subtab": "-Nr1Rmq5pch8pdWJ5UBC",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

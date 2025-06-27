@@ -1,0 +1,3 @@
+{
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"\",\"key\":\"wasAQuote\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Was A Quote\",\"expression\":false,\"hidden\":true}]}"
+}

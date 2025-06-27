@@ -1,0 +1,27 @@
+{
+  "classes": "",
+  "container": "-NZQRDYXl0lzJYTGO4xe",
+  "dependency": "dataGrid/opportunities",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "options": {
+    "availableViews": [
+      "default"
+    ],
+    "disableViewsControl": true,
+    "view": "default"
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "opportunities"
+  },
+  "styles": "",
+  "tab": "-NZQQhYtGqKTbT0LahRT",
+  "title": "",
+  "type": "DataGrid"
+}

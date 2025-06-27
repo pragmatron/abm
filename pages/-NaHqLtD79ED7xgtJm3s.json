@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "color": "rgba(229, 139, 40, 1)",
+    "name": "credit-card"
+  },
+  "order": 11,
+  "title": "Invoices"
+}

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+/* body{
+    font-family: -apple-system, BlinkMacSystemFont,"Noto Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+} */
+
+body {
+    font-family: 'Noto Sans', sans-serif !important;
+
+}

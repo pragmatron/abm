@@ -1,0 +1,28 @@
+{
+  "component": "-MpwsXzsgFvh22UWWJmZ",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 1,
+    "w": 12,
+    "x": 0,
+    "y": 2
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "decimalPlaces": 0,
+    "fontColor": "#000000",
+    "fontSize": "",
+    "fontWeight": "400",
+    "formatType": "text",
+    "horizontal": "center",
+    "horizontalPadding": "",
+    "selectedCurrency": "",
+    "value": "{ \"doEval\": true, \"isExpression\": true, \"value\": \"&quot;Desk Configuration&quot;\" }",
+    "vertical": "center",
+    "verticalPadding": ""
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

@@ -1,0 +1,17 @@
+{
+  "chartName": "Total Sales Amount by Customer",
+  "chartType": "bar",
+  "groupBy": [
+    {
+      "column": "customer",
+      "key": "-O62v0ak2JFm43ueHjfG"
+    }
+  ],
+  "metrics": [
+    {
+      "column": "totalLineAmount",
+      "key": "-O62v0ak2JFm43ueHjfF",
+      "operator": "sum"
+    }
+  ]
+}

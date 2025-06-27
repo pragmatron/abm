@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/locations",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "locations"
+  },
+  "subtab": "-NdkkQxJilU6cH6uEoaD",
+  "tab": "-NZQQs9Gj86cPY8Oc51P",
+  "type": "DataGrid"
+}

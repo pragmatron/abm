@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "gsOptions": {
+    "h": 27,
+    "w": 24,
+    "x": 0,
+    "y": 3
+  },
+  "layout": "b-card",
+  "options": {
+    "addRecordText": "Add Sales Order ",
+    "view": "default"
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "opportunities"
+  },
+  "styles": "",
+  "tab": "-NZQQhYtGqKTbT0LahRT",
+  "title": "",
+  "type": "DataGrid"
+}

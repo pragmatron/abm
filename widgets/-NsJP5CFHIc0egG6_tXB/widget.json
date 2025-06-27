@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/shifts",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "shifts"
+  },
+  "subtab": "-NsJP59o1D1vh66Aw0hJ",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

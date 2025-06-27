@@ -1,0 +1,18 @@
+{
+  "dependency": "dataGrid/workflowLogs",
+  "gsOptions": {
+    "h": 9,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "inherited": true,
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "workflowLogs"
+  },
+  "subtab": "-MFv5M-XNcLMnR_glmH_",
+  "tab": "-MFvDzhisF08i_OGTEhs",
+  "type": "DataGrid"
+}

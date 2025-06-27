@@ -1,0 +1,28 @@
+{
+  "component": "-Nelg_A-2LfHvH5-ulf2",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 2,
+    "w": 9,
+    "x": 0,
+    "y": 10
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "decimalPlaces": 0,
+    "fontColor": "",
+    "fontSize": "",
+    "fontWeight": "400",
+    "formatType": "text",
+    "horizontal": "center",
+    "horizontalPadding": "",
+    "selectedCurrency": "",
+    "value": "{ \"doEval\": true, \"isExpression\": true, \"value\": \"&quot;test text&quot;\" }",
+    "vertical": "center",
+    "verticalPadding": ""
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

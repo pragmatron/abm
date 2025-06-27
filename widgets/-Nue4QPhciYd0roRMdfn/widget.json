@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/machineRunTime",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "machineRunTime"
+  },
+  "subtab": "-Nue4QNk9NknwXoNTn2I",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "DataGrid"
+}

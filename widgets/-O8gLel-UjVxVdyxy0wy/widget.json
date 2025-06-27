@@ -1,0 +1,17 @@
+{
+  "container": "-O8gLdplMu70A7DOYOY3",
+  "dependency": "dataGrid/shipDate",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "shipDate"
+  },
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

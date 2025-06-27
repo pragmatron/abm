@@ -1,0 +1,120 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NhWA28IFFIbOuSnVCVE",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1698155873483",
+        "x": 100,
+        "y": 100,
+        "name": "start-event",
+        "label": "Start Event",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1698155874884",
+        "x": 384,
+        "y": 186,
+        "name": "script-task",
+        "label": "Create PDF",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1698156000894",
+        "x": 723,
+        "y": 202,
+        "name": "script-task",
+        "label": "Send Email",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1698156121205",
+        "x": 977,
+        "y": 283,
+        "name": "end-event",
+        "label": "End Event",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "1f21ec55-a32b-4b80-9a70-90fabdc12e4d",
+        "source": "node1698155873483",
+        "target": "node1698155874884",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Start Event",
+        "targetLabel": "Create PDF",
+        "style": {}
+      },
+      {
+        "id": "cc1e235a-5ff9-4aa7-ae0a-3870590da8e7",
+        "source": "node1698155874884",
+        "target": "node1698156000894",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Create PDF",
+        "targetLabel": "Send Email",
+        "style": {}
+      },
+      {
+        "id": "4df81f2e-8f2f-49ab-a5a8-152f63070220",
+        "source": "node1698156000894",
+        "target": "node1698156121205",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Send Email",
+        "targetLabel": "End Event",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": 81.97287595856403,
+      "y": 239.09877695957687,
+      "scale": 0.3866776238193863,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "default",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": false,
+  "name": "sendSalesOrderEmail"
+}

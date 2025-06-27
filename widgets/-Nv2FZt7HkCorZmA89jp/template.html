@@ -1,0 +1,54 @@
+<template>
+  <table class="table-style">
+    <thead>
+      <tr>
+        <th>Finished Good Products</th>
+        <th v-for="date in dates" :key="date">{{ date }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="(amounts, product) in products" :key="product">
+        <td>{{ product }}</td>
+        <td v-for="(amount, index) in amounts" :key="index">{{ amount }}</td>
+      </tr>
+    </tbody>
+  </table>
+</template>
+
+<script>
+module.exports = {
+  data() {
+    return {
+      dates: ["4/1/2024", "4/8/2024", "4/15/2024", "4/22/2024", "4/29/2024", "5/6/2024", "5/13/2024"],
+      products: {
+        "UK Yum Yum Box": [200, 200, 200, 200, 200, 200, 200],
+        "Korea Yum Box": [200, 200, 200, 200, 200, 200, 200],
+        // ... other products
+        "Amazon Box": [400, 400, 400, 400, 400, 400, 400]
+      }
+    };
+  }
+}
+</script>
+
+<style>
+.table-style {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-style th, .table-style td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-style th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.table-style tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>

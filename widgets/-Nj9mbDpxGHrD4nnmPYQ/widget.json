@@ -1,0 +1,14 @@
+{
+  "dependency": "dataGrid/projects",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "projects"
+  },
+  "tab": "-Nj9mbBkjUqdiS8Nanwk",
+  "type": "DataGrid"
+}

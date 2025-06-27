@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/fileVersion",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "fileVersion"
+  },
+  "subtab": "-NdkrjWmrKAoiyX9v-a7",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

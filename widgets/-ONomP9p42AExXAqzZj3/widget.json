@@ -1,0 +1,14 @@
+{
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "opportunityLines"
+  },
+  "subtab": "-ONomP7hu9Porl9kzKu3",
+  "tab": "-Nr16kQdMyZP5X_9exWf",
+  "type": "DataGrid"
+}

@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/checklist",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "checklist"
+  },
+  "subtab": "-Ny7IEonpgJasfcssRpa",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "DataGrid"
+}

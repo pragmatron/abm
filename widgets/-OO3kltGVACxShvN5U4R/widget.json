@@ -1,0 +1,27 @@
+{
+  "classes": "",
+  "gsOptions": {
+    "h": 32,
+    "w": 24,
+    "x": 0,
+    "y": 3
+  },
+  "layout": "b-card",
+  "options": {
+    "availableViews": [
+      "quotesNeedingFollowUp"
+    ],
+    "disableViewsControl": true,
+    "hideAddRecord": true,
+    "readonly": true,
+    "view": "quotesNeedingFollowUp"
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "quotes"
+  },
+  "styles": "",
+  "tab": "-OLqWdly_g1YV4q6dCSu",
+  "title": "",
+  "type": "DataGrid"
+}

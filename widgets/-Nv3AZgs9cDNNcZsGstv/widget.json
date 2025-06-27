@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/orderHistory",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "orderHistory"
+  },
+  "subtab": "-Nv3AZeRxsvJ-A07OhCY",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "DataGrid"
+}

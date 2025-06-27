@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/estimateMaterials",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "estimateMaterials"
+  },
+  "subtab": "-NpZo0Bg1yAKdjVUCxVE",
+  "tab": "-NnmsKcNUmAqZF3LO6JU",
+  "type": "DataGrid"
+}

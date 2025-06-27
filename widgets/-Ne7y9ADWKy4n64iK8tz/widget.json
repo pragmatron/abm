@@ -1,0 +1,25 @@
+{
+  "autoHeight": true,
+  "classes": "",
+  "columnCount": "1",
+  "columnMaxWidth": "380",
+  "columnMinWidth": "300",
+  "dataSource": "workOrderOperations",
+  "gsOptions": {
+    "h": 36,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "offSet": 0,
+  "overflow": "height: auto;",
+  "perPage": 2,
+  "styles": ".card {\r\n    padding: 0 !important;\r\n    border: 1px solid #D3D3D3 !important;\r\n    max-height: 128px !important;\r\n}\r\n\r\n.vue-grid-item {\r\n    top: 0px !important;\r\n}",
+  "tab": "-Ne7p3hQrEFoeEmmcGdt",
+  "title": "",
+  "type": "card-list",
+  "useContainerForDetail": false,
+  "useContainerForList": false,
+  "viewOfGrid": "shopFloor",
+  "widthType": "columnCount"
+}

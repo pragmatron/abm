@@ -1,0 +1,20 @@
+{
+  "chartTitle": "test",
+  "dataSource": "workOrderOperations",
+  "gsOptions": {
+    "h": 8,
+    "w": 16
+  },
+  "tab": "-Nj9mbBkjUqdiS8Nanwk",
+  "taskDGFields": {
+    "assignedTo": "owner",
+    "color": "commentsinSpanish",
+    "description": "instructions",
+    "end": "dueDate",
+    "name": "name",
+    "progress": "hours",
+    "resource": "resource",
+    "start": "createdDate"
+  },
+  "template": ""
+}

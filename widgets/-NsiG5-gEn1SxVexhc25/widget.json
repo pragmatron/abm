@@ -1,0 +1,41 @@
+{
+  "autoHeight": false,
+  "classes": "",
+  "columnCount": "4",
+  "columnMaxWidth": "",
+  "columnMinWidth": "400",
+  "containerTabsCardList": [
+    {
+      "key": "-NsiGCX5DA6lyrPy1TST",
+      "title": "Page Name"
+    }
+  ],
+  "containerTabsCardListDetail": [
+    {
+      "key": "-NsiGCX5DA6lyrPy1TSU",
+      "title": "Page Name"
+    }
+  ],
+  "dataSource": "parts",
+  "gsOptions": {
+    "h": 11,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "isCardListDetailTabsHidden": true,
+  "isCardListTabsHidden": true,
+  "layout": "b-card",
+  "offSet": 0,
+  "overflow": "height: auto;",
+  "perPage": 2,
+  "styles": "",
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "title": "Parts Catalogue",
+  "type": "card-list",
+  "useContainerForDetail": true,
+  "useContainerForList": true,
+  "viewOfGrid": "shopPortal",
+  "widthType": "minAndMaxWidth"
+}

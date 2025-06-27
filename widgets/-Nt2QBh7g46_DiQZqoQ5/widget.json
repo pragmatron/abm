@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/complaintTracker",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "complaintTracker"
+  },
+  "subtab": "-Nt2QBfIEDTFYLPDYyZD",
+  "tab": "-OLqWdly_g1YV4q6dCSu",
+  "type": "DataGrid"
+}

@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/testimport",
+  "gsOptions": {
+    "h": 64,
+    "w": 24,
+    "x": 0,
+    "y": 3
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "testimport"
+  },
+  "subtab": "-OIHp1pgGr5OU54JCCwt",
+  "tab": "-N_dHWeF8um-thlGP_lt",
+  "type": "DataGrid"
+}

@@ -1,0 +1,18 @@
+{
+  "classes": "",
+  "dependency": "filteredSingleCardData/-ONQFGa3OE52OxkkFY0f",
+  "gsOptions": {
+    "h": 5,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "props": {
+    "filteredSingleCardId": "-ONQFGa3OE52OxkkFY0f"
+  },
+  "styles": "",
+  "tab": "-NnmsKcNUmAqZF3LO6JU",
+  "title": "",
+  "type": "FilteredSingleCard"
+}

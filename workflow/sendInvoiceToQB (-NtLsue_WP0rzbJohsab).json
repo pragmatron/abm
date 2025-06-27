@@ -1,0 +1,403 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NtLsue_WP0rzbJohsab",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1710854859182",
+        "x": -379,
+        "y": -42,
+        "name": "start-event",
+        "label": "Start Event",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710854870059",
+        "x": -379,
+        "y": 252,
+        "name": "script-task",
+        "label": "Get Token",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710854949192",
+        "x": -379,
+        "y": 508,
+        "name": "script-task",
+        "label": "Refresh Token",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710854965833",
+        "x": -379,
+        "y": 800,
+        "name": "script-task",
+        "label": "Find Customer",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710855004781",
+        "x": -64,
+        "y": 309,
+        "name": "decision",
+        "label": "Was Customer Found?",
+        "clazz": "decision",
+        "icon": {
+          "name": "check-circle",
+          "color": "hsl(11, 96%, 62%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1710855031291",
+            "text": "Found",
+            "expression": "context.customer",
+            "idx": 1
+          },
+          {
+            "id": "outcome1710855043791",
+            "text": "Not Found",
+            "expression": "!context.customer",
+            "idx": 2
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710855127391",
+        "x": 1022,
+        "y": 404,
+        "name": "decision",
+        "label": "Any Invoice Products Missing?",
+        "clazz": "decision",
+        "icon": {
+          "name": "check-circle",
+          "color": "hsl(11, 96%, 62%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1710855201305",
+            "text": "All Products Found in QB",
+            "expression": "!context.missingProducts",
+            "idx": 1
+          },
+          {
+            "id": "outcome1710855240374",
+            "text": "Missing Products",
+            "expression": "context.missingProducts",
+            "idx": 2
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710855163161",
+        "x": 469,
+        "y": 678,
+        "name": "end-event",
+        "label": "End Event",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710855353226",
+        "x": 1484,
+        "y": 309,
+        "name": "script-task",
+        "label": "Create Invoice",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710919523462",
+        "x": 321,
+        "y": -7,
+        "name": "decision",
+        "label": "Does Customer Have Terms Set?",
+        "clazz": "decision",
+        "icon": {
+          "name": "check-circle",
+          "color": "hsl(11, 96%, 62%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1710919567425",
+            "text": "Found Terms In QB",
+            "expression": "context.customerTerms",
+            "idx": 1
+          },
+          {
+            "id": "outcome1710919579431",
+            "text": "No Terms Set In QB",
+            "expression": "!context.customerTerms",
+            "idx": 2
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710919615680",
+        "x": 931,
+        "y": -99,
+        "name": "script-task",
+        "label": "Find Invoice Lines",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710919654931",
+        "x": 731,
+        "y": 252,
+        "name": "script-task",
+        "label": "Look For Terms",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1712134319595",
+        "x": 321,
+        "y": 410,
+        "name": "script-task",
+        "label": "Create Customer",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "4e614721-55d1-4ddc-9b59-1eb38db887bb",
+        "source": "node1710854859182",
+        "target": "node1710854870059",
+        "startSocket": "bottom",
+        "endSocket": "top",
+        "label": "Start Event",
+        "targetLabel": "Get Token",
+        "style": {}
+      },
+      {
+        "id": "68a7b5e0-2825-4609-8fea-7e12014385a7",
+        "source": "node1710854870059",
+        "target": "node1710854949192",
+        "startSocket": "bottom",
+        "endSocket": "top",
+        "label": "Get Token",
+        "targetLabel": "Refresh Token",
+        "style": {}
+      },
+      {
+        "id": "674d3d6c-3546-4d00-9b15-d9a025bd2e08",
+        "source": "node1710854949192",
+        "target": "node1710854965833",
+        "startSocket": "bottom",
+        "endSocket": "top",
+        "label": "Refresh Token",
+        "targetLabel": "Find Customer",
+        "style": {}
+      },
+      {
+        "id": "1b605806-67e5-4877-bd74-39e3eac4d91f",
+        "source": "node1710854965833",
+        "target": "node1710855004781",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Find Customer",
+        "targetLabel": "Was Customer Found?",
+        "style": {}
+      },
+      {
+        "id": "f799e0c3-3597-4b57-81d2-a76c88dbba31",
+        "source": "outcome1710855240374",
+        "target": "node1710855163161",
+        "startSocket": "right",
+        "endSocket": "right",
+        "label": "Missing Products",
+        "targetLabel": "End Event",
+        "expression": "context.missingProducts",
+        "style": {}
+      },
+      {
+        "id": "88d0cd70-659b-40db-b2f3-20cbe867628e",
+        "source": "node1710855353226",
+        "target": "node1710855163161",
+        "startSocket": "bottom",
+        "endSocket": "bottom",
+        "label": "Create Invoice",
+        "targetLabel": "End Event",
+        "style": {}
+      },
+      {
+        "id": "870ee120-3d8a-4c47-ae59-d55a0ab853e9",
+        "source": "outcome1710855201305",
+        "target": "node1710855353226",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "All Products Found in QB",
+        "targetLabel": "Create Invoice",
+        "expression": "!context.missingProducts",
+        "style": {}
+      },
+      {
+        "id": "fb41aef6-037b-44d8-b701-2017613033c3",
+        "source": "outcome1710855031291",
+        "target": "node1710919523462",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Found",
+        "targetLabel": "Decision",
+        "expression": "context.customer",
+        "style": {}
+      },
+      {
+        "id": "c42a497e-ab4e-4743-9cb7-ca22449422ea",
+        "source": "outcome1710919567425",
+        "target": "node1710919615680",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Found Terms In QB",
+        "targetLabel": "Find Invoice Lines",
+        "expression": "context.customerTerms",
+        "style": {}
+      },
+      {
+        "id": "ff52c1f5-f237-4cf8-8ce9-506f3af909b6",
+        "source": "outcome1710919579431",
+        "target": "node1710919654931",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "No Terms Set In QB",
+        "targetLabel": "Look For Terms",
+        "expression": "!context.customerTerms && context.payload.terms",
+        "style": {}
+      },
+      {
+        "id": "cb724a52-23a1-4fb4-ab3e-7dad1f360bed",
+        "source": "node1710919654931",
+        "target": "node1710919615680",
+        "startSocket": "right",
+        "endSocket": "bottom",
+        "label": "Look For Terms",
+        "targetLabel": "Find Invoice Lines",
+        "style": {}
+      },
+      {
+        "id": "aca9c3e2-167f-4c89-8fe1-b4aebb88a67b",
+        "source": "node1710919615680",
+        "target": "node1710855127391",
+        "startSocket": "right",
+        "endSocket": "top",
+        "label": "Find Invoice Lines",
+        "targetLabel": "Any Invoice Products Missing?",
+        "style": {}
+      },
+      {
+        "id": "0e18d5d6-5daf-4cd0-a948-aa451e3ac1f0",
+        "source": "outcome1710855043791",
+        "target": "node1712134319595",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Not Found",
+        "targetLabel": "Script Task",
+        "expression": "!context.customer",
+        "style": {}
+      },
+      {
+        "id": "a3cbb068-e6eb-42e3-9815-a0db49027505",
+        "source": "node1712134319595",
+        "target": "node1710919523462",
+        "startSocket": "top",
+        "endSocket": "bottom",
+        "label": "Script Task",
+        "targetLabel": "Does Customer Have Terms Set?",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": -306,
+      "y": 65,
+      "scale": 0.7,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "default",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": false,
+  "name": "sendInvoiceToQB"
+}

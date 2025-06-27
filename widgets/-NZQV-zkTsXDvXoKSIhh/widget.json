@@ -1,0 +1,21 @@
+{
+  "classes": "",
+  "dependency": "dataGrid/contacts",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "options": {
+    "addRecordsText": "]["
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "contacts"
+  },
+  "styles": "",
+  "subtab": "-NZQV-xg8hgllkcGj1u0",
+  "tab": "-OLqWdly_g1YV4q6dCSu",
+  "title": "",
+  "type": "DataGrid"
+}

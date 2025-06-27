@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/unitsOfMeasure",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "unitsOfMeasure"
+  },
+  "subtab": "-NpZpSAevZ6z-rLZVEM_",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

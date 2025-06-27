@@ -1,0 +1,25 @@
+{
+  "chartName": "Quoted By Person",
+  "chartType": "bar",
+  "groupBy": [
+    {
+      "column": "salesperson",
+      "key": "-OP1TdoZwXQsbhSpE9QA"
+    }
+  ],
+  "metrics": [
+    {
+      "column": "totalQuoteLinePrice",
+      "customScale": false,
+      "drawOnChart": false,
+      "format": "$0,0.00",
+      "key": "-OP1TgHt3KGZ0QayNqDZ",
+      "operator": "sum",
+      "percentageAxis": false,
+      "stepSize": "0"
+    }
+  ],
+  "stackedMetrics": {
+    "stacked": false
+  }
+}

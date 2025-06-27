@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/manuals",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "manuals"
+  },
+  "subtab": "-NcbkXyGO1tlHSi2uW6K",
+  "tab": "-N_dHWeF8um-thlGP_lt",
+  "type": "DataGrid"
+}

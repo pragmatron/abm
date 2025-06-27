@@ -1,0 +1,345 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NzE4P9WMb8MNxqiDzfr",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1717166165197",
+        "x": 473,
+        "y": 285,
+        "name": "start-event",
+        "label": "Start Event",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1717166228386",
+        "x": 770,
+        "y": 284,
+        "name": "user-task",
+        "label": "Preparation of Documents",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "#general"
+        },
+        "outcomes": [
+          {
+            "id": "outcome1717166267070",
+            "text": "Done",
+            "expression": "",
+            "idx": 1
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1717166295556",
+        "x": 1083,
+        "y": 39,
+        "name": "user-task",
+        "label": "Initial Check",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "#general"
+        },
+        "outcomes": [
+          {
+            "id": "outcome1717166312791",
+            "text": "Documents Checked",
+            "expression": "",
+            "idx": 1
+          },
+          {
+            "id": "outcome1717166320698",
+            "text": "Rejected",
+            "expression": "",
+            "idx": 2
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1717166359133",
+        "x": 1465,
+        "y": 309,
+        "name": "user-task",
+        "label": "Back Drafting",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "#general"
+        },
+        "outcomes": [
+          {
+            "id": "outcome1717166378762",
+            "text": "Done",
+            "expression": "",
+            "idx": 1
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1717166396525",
+        "x": 1670,
+        "y": 39,
+        "name": "user-task",
+        "label": "Final Check",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "#general"
+        },
+        "outcomes": [
+          {
+            "id": "outcome1717166407790",
+            "text": "Done",
+            "expression": "",
+            "idx": 1
+          },
+          {
+            "id": "outcome1717166412105",
+            "text": "Rejected",
+            "expression": "",
+            "idx": 2
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1717166434555",
+        "x": 2040,
+        "y": 170,
+        "name": "user-task",
+        "label": "Filing of Check Prints",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "#general"
+        },
+        "outcomes": [
+          {
+            "id": "outcome1717166471792",
+            "text": "Completed",
+            "expression": "",
+            "idx": 1
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1717166489493",
+        "x": 2040,
+        "y": 388,
+        "name": "end-event",
+        "label": "Complete",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1717169288621",
+        "x": 694,
+        "y": -46,
+        "name": "comment",
+        "label": "Comment",
+        "clazz": "comment",
+        "icon": {
+          "name": "comment",
+          "color": "hsl(188, 78%, 41%)"
+        },
+        "attachment": {
+          "comment": "asdfasdf asd f asdf as df asdf asd fas df asdf "
+        },
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1720816621755",
+        "x": 1065,
+        "y": 712,
+        "name": "user-task",
+        "label": "User Task",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1721236385370",
+        "x": 1308,
+        "y": 700,
+        "name": "user-task",
+        "label": "User Task d4c0",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1721236388725",
+            "text": "yes",
+            "expression": "",
+            "idx": 1
+          },
+          {
+            "id": "outcome1721236389981",
+            "text": "no",
+            "expression": "",
+            "idx": 2
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "853481a8-5a5c-4ad3-b76d-5234b5b02ad4",
+        "source": "node1717166165197",
+        "target": "node1717166228386",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Start Event",
+        "targetLabel": "5.1 Preparation of Documents",
+        "style": {}
+      },
+      {
+        "id": "a807bf9e-acf1-40df-84d1-9194554db3bb",
+        "source": "outcome1717166267070",
+        "target": "node1717166295556",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Done",
+        "targetLabel": "5.2 Initial Check",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "8c4cd4b1-4f85-4c3a-baaf-2269b86a39aa",
+        "source": "outcome1717166320698",
+        "target": "node1717166228386",
+        "startSocket": "right",
+        "endSocket": "bottom",
+        "label": "Rejected",
+        "targetLabel": "5.1 Preparation of Documents",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "54016359-a29b-4cb1-b21a-7d204ed63ec5",
+        "source": "outcome1717166312791",
+        "target": "node1717166359133",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Documents Checked",
+        "targetLabel": "5.3 Back Drafting",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "7596341c-d19d-43f7-8cbe-2c55b0badd42",
+        "source": "outcome1717166378762",
+        "target": "node1717166396525",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Done",
+        "targetLabel": "5.4 Final Check",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "78907a42-427a-41db-b566-22055bbaf830",
+        "source": "outcome1717166412105",
+        "target": "node1717166359133",
+        "startSocket": "right",
+        "endSocket": "bottom",
+        "label": "Rejected",
+        "targetLabel": "5.3 Back Drafting",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "5f5adcb0-4a16-4881-94c9-31405a6e4b9e",
+        "source": "outcome1717166407790",
+        "target": "node1717166434555",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Done",
+        "targetLabel": "5.5 Filing of Check Prints",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "993293d5-5d2a-407b-9b06-9c48be206543",
+        "source": "outcome1717166471792",
+        "target": "node1717166489493",
+        "startSocket": "right",
+        "endSocket": "top",
+        "label": "Completed",
+        "targetLabel": "Complete",
+        "expression": "",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": -669,
+      "y": 26,
+      "scale": 0.9,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "default",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": false,
+  "name": "QualityFlow"
+}

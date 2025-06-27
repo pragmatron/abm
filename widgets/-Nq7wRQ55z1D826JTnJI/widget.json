@@ -1,0 +1,21 @@
+{
+  "component": "-Np5ZL8mlj-wNDd_UP9I",
+  "gsOptions": {
+    "h": 7,
+    "w": 4,
+    "x": 16,
+    "y": 6
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "backgroundColor": "",
+    "code": "$setCurrentTab('-NZQRNzG4GCl_3_CgC6h')",
+    "icon": "fas fa-hammer",
+    "iconAndTextColor": "#5297ff",
+    "name": "Production"
+  },
+  "tab": "-NZQQaXubwP2EQjuVATC",
+  "type": "custom"
+}

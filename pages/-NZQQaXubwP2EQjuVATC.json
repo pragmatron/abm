@@ -1,0 +1,9 @@
+{
+  "expandedByDefault": false,
+  "icon": {
+    "color": "rgba(204, 2, 59, 1)",
+    "name": "podcast"
+  },
+  "order": 0,
+  "title": "Home"
+}

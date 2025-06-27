@@ -1,0 +1,88 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NtqjkeBpuWZvNvfsqnl",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1711389205444",
+        "x": 1018.2336730968,
+        "y": 219.0130691526,
+        "name": "user-task",
+        "label": "User Task",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 60,
+        "customHeight": 60
+      },
+      {
+        "id": "node1711389207789",
+        "x": 1569.7769126909,
+        "y": 267.6826400754,
+        "name": "script-task",
+        "label": "Script Task",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": ""
+        },
+        "outcomes": [],
+        "customWidth": 60,
+        "customHeight": 60
+      },
+      {
+        "id": "node1711389218083",
+        "x": 1272.792091371,
+        "y": 219.0130691526,
+        "name": "script-task",
+        "label": "Script Task",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {
+          "script": ""
+        },
+        "outcomes": [],
+        "customWidth": 60,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "e35524a6-7f45-47fa-8d5b-d98ca38a205a",
+        "source": "node1711389218083",
+        "target": "node1711389207789",
+        "startSocket": "right",
+        "endSocket": "top",
+        "label": "Script Task",
+        "targetLabel": "Script Task",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": -821.2487742762478,
+      "y": -65.43569044977363,
+      "scale": 0.9,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "isometric",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": false,
+  "name": "asdf"
+}

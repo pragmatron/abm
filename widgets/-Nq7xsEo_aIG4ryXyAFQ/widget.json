@@ -1,0 +1,21 @@
+{
+  "component": "-Np5ZL8mlj-wNDd_UP9I",
+  "gsOptions": {
+    "h": 7,
+    "w": 4,
+    "x": 12,
+    "y": 6
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "backgroundColor": "",
+    "code": "$setCurrentTab('-NZQQs9Gj86cPY8Oc51P')",
+    "icon": "fas fa-warehouse",
+    "iconAndTextColor": "#5297ff",
+    "name": "Inventory"
+  },
+  "tab": "-NZQQaXubwP2EQjuVATC",
+  "type": "custom"
+}

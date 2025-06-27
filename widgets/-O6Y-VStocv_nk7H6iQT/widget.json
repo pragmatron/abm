@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/machineFixRequests",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "machineFixRequests"
+  },
+  "subtab": "-O6Y-VRTDdLT5aG1iY5L",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "DataGrid"
+}

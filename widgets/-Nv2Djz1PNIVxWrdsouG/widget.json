@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/upcomingDemand",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "upcomingDemand"
+  },
+  "subtab": "-Nv2Djx4y8VJK3GLcgd4",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "DataGrid"
+}

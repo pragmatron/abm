@@ -1,0 +1,117 @@
+{
+  "displayColumn": "name",
+  "isReactive": true,
+  "meta": {
+    "layout": {
+      "displayName": "Layout",
+      "order": 0,
+      "type": "select"
+    }
+  },
+  "rowEditorFieldsForm": {
+    "sections": [
+      {
+        "name": "section_928341",
+        "label": "",
+        "clientKey": "section_928341",
+        "order": 0,
+        "rows": [
+          {
+            "name": "section_928341_row_774173",
+            "label": "",
+            "order": 0,
+            "controls": [
+              {
+                "type": "select",
+                "name": "control_1e89e490-b807-11ef-80f3-77b6557043f2",
+                "fieldName": "control_1e89e490-b807-11ef-80f3-77b6557043f2",
+                "label": "Layout",
+                "order": 0,
+                "defaultValue": "",
+                "value": "",
+                "className": "col-md-6",
+                "readonly": false,
+                "readonlyCondition": "",
+                "placeholder": "",
+                "required": false,
+                "requiredCondition": "",
+                "isMultiLine": false,
+                "isInteger": false,
+                "decimalPlace": 2,
+                "expression": "",
+                "oneDriveFileId": null,
+                "isTodayValue": false,
+                "isTodayValueCreated": true,
+                "dateFormat": "mm/dd/yy hh:mm p",
+                "timezone": null,
+                "selectedDataGrid": null,
+                "printedFileName": null,
+                "buttonLabel": "",
+                "dataForTemplate": null,
+                "selectedOutputDataGrid": null,
+                "templateRowKey": null,
+                "isForDownload": false,
+                "isOneDriveTemplate": false,
+                "selectedOneDriveFile": null,
+                "openInNewTab": false,
+                "attachRecord": false,
+                "isCurrentUser": false,
+                "isCurrentUserOwner": true,
+                "isNowTimeValue": false,
+                "timeFormat": "HH:mm",
+                "isMultiple": false,
+                "isAjax": false,
+                "dataOptions": [],
+                "ajaxDataUrl": "",
+                "isChecked": false,
+                "vif": "",
+                "customCode": "",
+                "invisible": false,
+                "invisibleCondition": "",
+                "invisibleLabel": false,
+                "enableCustomValidation": false,
+                "customValidationRule": "",
+                "customValidationErrorMessage": "",
+                "mask": "",
+                "lookupOpenInModalDisabled": false,
+                "lookUpSearch": null,
+                "editorMode": "javascript",
+                "dataGridAvailableViews": [],
+                "dataGridView": null,
+                "dataGridAddRecordsText": "",
+                "dataGridAddRecordText": "",
+                "skipCrop": false,
+                "disableRoundedStyle": false,
+                "propName": "layout"
+              }
+            ]
+          }
+        ],
+        "labelPosition": "top",
+        "isDynamic": false,
+        "minInstance": 1,
+        "maxInstance": 0,
+        "instances": []
+      },
+      {
+        "cleintKey": "hidden_section_6e8cb9e0-5b37-11ef-afa5-615c51d26a3e",
+        "instances": [],
+        "isDynamic": false,
+        "label": "Hidden Section",
+        "vif": "false",
+        "name": "hidden_section_6e8cb9e0-5b37-11ef-afa5-615c51d26a3e",
+        "order": 1,
+        "rows": [
+          {
+            "name": "hidden_section_6e8cb9e0-5b37-11ef-afa5-615c51d26a3e_row_6e8cb9e1-5b37-11ef-afa5-615c51d26a3e",
+            "controls": []
+          }
+        ]
+      }
+    ],
+    "layout": "collapse"
+  },
+  "source": "testing",
+  "storageType": "dashboard",
+  "title": "testing"
+}

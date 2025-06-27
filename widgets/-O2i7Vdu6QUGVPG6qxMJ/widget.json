@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/qBDesktopQueries",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "qBDesktopQueries"
+  },
+  "subtab": "-O2i7V_Yv-ACaNTa8owr",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "DataGrid"
+}

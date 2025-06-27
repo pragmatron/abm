@@ -1,0 +1,11 @@
+{
+  "isReactive": true,
+  "meta": {
+    "parentPart": {
+      "indexed": true
+    },
+    "salesOrder": {
+      "indexed": true
+    }
+  }
+}

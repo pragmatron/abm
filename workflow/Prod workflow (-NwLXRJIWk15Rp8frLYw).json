@@ -1,0 +1,460 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NwLXRJIWk15Rp8frLYw",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1714070080914",
+        "x": 215.71428571428572,
+        "y": 158.29241071428572,
+        "name": "start-event",
+        "label": "Start Event",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1714070082929",
+        "x": 583,
+        "y": 136,
+        "name": "user-task",
+        "label": "Research product",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1714070114259",
+            "text": "ESP",
+            "expression": "",
+            "idx": 1
+          },
+          {
+            "id": "outcome1714070117071",
+            "text": "Vendor",
+            "expression": "",
+            "idx": 2
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1714070131555",
+        "x": 1019,
+        "y": 147,
+        "name": "user-task",
+        "label": "Client Selects Product",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1714070153318",
+            "text": "Question",
+            "expression": "",
+            "idx": 1
+          },
+          {
+            "id": "outcome1714070159943",
+            "text": "Approved",
+            "expression": "",
+            "idx": 2
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1714070231477",
+        "x": 1478,
+        "y": 116,
+        "name": "user-task",
+        "label": "Setup estimate for customer",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1714070266649",
+            "text": "Send Estimate",
+            "expression": "",
+            "idx": 1
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1714070279787",
+        "x": 1813,
+        "y": 146,
+        "name": "user-task",
+        "label": "Client Approves Estimate",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1714070287647",
+            "text": "Reject",
+            "expression": "",
+            "idx": 1
+          },
+          {
+            "id": "outcome1714070290537",
+            "text": "Approve",
+            "expression": "",
+            "idx": 2
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1714070342540",
+        "x": 2194,
+        "y": 147,
+        "name": "user-task",
+        "label": "Get proof and send to customer",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1714070375737",
+            "text": "Send proof to customer",
+            "expression": "",
+            "idx": 1
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1714070399964",
+        "x": 2573,
+        "y": 147,
+        "name": "user-task",
+        "label": "Client approves proof",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1714070411366",
+            "text": "Reject",
+            "expression": "",
+            "idx": 1
+          },
+          {
+            "id": "outcome1714070416006",
+            "text": "Approve",
+            "expression": "",
+            "idx": 2
+          },
+          {
+            "id": "outcome1714146591912",
+            "text": "yoiuo",
+            "expression": "",
+            "idx": 3
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1714070446947",
+        "x": 3008.571428571429,
+        "y": 156.8638392857143,
+        "name": "user-task",
+        "label": "Create work order",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1714070454756",
+            "text": "Done",
+            "expression": "",
+            "idx": 1
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1714070459648",
+        "x": 3435.714285714286,
+        "y": 178.29241071428572,
+        "name": "end-event",
+        "label": "End Event",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1714072394305",
+        "x": 1102,
+        "y": 451,
+        "name": "decision",
+        "label": "Decision",
+        "clazz": "decision",
+        "icon": {
+          "name": "check-circle",
+          "color": "hsl(11, 96%, 62%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1714146526291",
+        "x": 1337,
+        "y": 359,
+        "name": "user-task",
+        "label": "User Task",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1719517341717",
+        "x": 695.8482142857143,
+        "y": 412.7191598074777,
+        "name": "decision",
+        "label": "Decision 5ee2",
+        "clazz": "decision",
+        "icon": {
+          "name": "check-circle",
+          "color": "hsl(11, 96%, 62%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1720109347195",
+        "x": 2253,
+        "y": 401,
+        "name": "user-task",
+        "label": "User Task bda6",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1721165000636",
+        "x": 1837.1428571428573,
+        "y": 442.578125,
+        "name": "user-task",
+        "label": "User Task a022",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "bef0b978-7986-44c9-bb78-c59ae0ae477e",
+        "source": "node1714070080914",
+        "target": "node1714070082929",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Start Event",
+        "targetLabel": "User Task",
+        "style": {}
+      },
+      {
+        "id": "b3efd383-e8e9-438c-b7e7-a9f09e1de240",
+        "source": "outcome1714070114259",
+        "target": "node1714070131555",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "ESP",
+        "targetLabel": "Client Selects Product",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "3e0ca6a3-1798-4280-84e0-d29e1efa256a",
+        "source": "outcome1714070117071",
+        "target": "node1714070131555",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Vendor",
+        "targetLabel": "Client Selects Product",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "e0c47eee-6381-48a4-896a-1c67256d23a7",
+        "source": "outcome1714070153318",
+        "target": "node1714070082929",
+        "startSocket": "right",
+        "endSocket": "top",
+        "label": "Question",
+        "targetLabel": "Research product",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "ae9fbc6b-a86b-49f5-9015-942ae11462e8",
+        "source": "outcome1714070159943",
+        "target": "node1714070231477",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Approved",
+        "targetLabel": "Setup estimate for customer",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "b36b6cba-fe29-45c2-bc57-f9924f716c24",
+        "source": "outcome1714070287647",
+        "target": "node1714070231477",
+        "startSocket": "right",
+        "endSocket": "top",
+        "label": "Reject",
+        "targetLabel": "Setup estimate for customer",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "f9c0db29-66da-4c91-adc9-90fae1a52a19",
+        "source": "outcome1714070266649",
+        "target": "node1714070279787",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Send Estimate",
+        "targetLabel": "Client Approves Estimate",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "9fb37118-8f0f-4182-b851-1a7caeab6fdc",
+        "source": "outcome1714070290537",
+        "target": "node1714070342540",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Approve",
+        "targetLabel": "Get proof and send to customer",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "86e7c0de-63dd-45fc-a714-e848d9458346",
+        "source": "outcome1714070375737",
+        "target": "node1714070399964",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Send proof to customer",
+        "targetLabel": "User Task",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "0d359fe1-0826-4f0d-81c9-f9efdbabe113",
+        "source": "outcome1714070411366",
+        "target": "node1714070342540",
+        "startSocket": "right",
+        "endSocket": "top",
+        "label": "Reject",
+        "targetLabel": "Get proof and send to customer",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "c8ef1fe3-b419-458b-b404-d3e958148f63",
+        "source": "outcome1714070454756",
+        "target": "node1714070459648",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Done",
+        "targetLabel": "End Event",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "5ef25d1f-f4af-4104-aa8e-89c19ed900d3",
+        "source": "outcome1714070416006",
+        "target": "node1714070446947",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Approve",
+        "targetLabel": "Create work order",
+        "expression": "",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": -1658,
+      "y": 100,
+      "scale": 0.9,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "default",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": false,
+  "name": "Prod workflow"
+}

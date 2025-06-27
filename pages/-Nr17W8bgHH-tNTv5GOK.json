@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "color": "rgba(231, 143, 35, 1)",
+    "name": "truck"
+  },
+  "order": 10,
+  "title": "Shipping/Receiving"
+}

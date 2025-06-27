@@ -1,0 +1,41 @@
+{
+  "addCellHeaderTemplate": true,
+  "allowUserSpecificLeftHeaders": false,
+  "allowUserSpecificTopHeaders": false,
+  "blockDragging": false,
+  "blockHorizontalDragging": false,
+  "blockVerticalDragging": false,
+  "cardBackgroundColorCoding": "if (item.$stage$display === 'Working') {\r\n    return '#FFDA52';\r\n} \r\n\r\nif (item.$stage$display === 'Incoming') {\r\n    return '#C7BFFF';\r\n}\r\n\r\nif (item.$stage$display === 'Finished') {\r\n    return '#5BC8AC';\r\n}\r\nif(item.subAssembliesFull === true) {\r\n    return '#5BC8AC';\r\n}",
+  "cardClassBindings": "",
+  "cellBackgroundColorCoding": "if(headerX.capacity > getSumOfProperty(headerX, headerY, 'minutes')) {\r\n    //return '#D5FFC4'\r\n    return '#fff'\r\n} else {\r\n    return 'light-red'\r\n\r\n    \r\n}",
+  "cellHeaderTemplate": "<h2 style=\"font-size: 11px; font-weight:400; background: #E3E3E6; padding: 3px; border-radius: 10px; color: rgba(17, 20, 45, 0.6);\"> <b>Capacity is {{headerX.capacity ? headerX.capacity : 0}}</b><b> and total minutes are {{getSumOfProperty(headerX, headerY, 'minutes')}}</b></h2>",
+  "customComputedProperty": "",
+  "editCardFunction": "",
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"\",\"key\":\"mainAssembly\",\"operator\":\"checkbox\",\"value\":true,\"name\":\"Main Assembly\",\"expression\":false,\"hidden\":false}]}",
+  "itemsStorage": "assemblies",
+  "laneCol": "resourceGroup",
+  "lanesStorage": "assemblies",
+  "leftLaneCol": "operator",
+  "showLeftHeaderTooltips": false,
+  "showLeftHeaderTotals": true,
+  "showTopHeaderTooltips": false,
+  "showTopHeaderTotals": true,
+  "smallTemplate": "",
+  "template": "<div style=\"display: flex; flex-direction: row; justify-content: space-between; align-items: start; margin: 0 3px; padding:4px;\">\r\n\r\n<h4 style=\"font-size: 13px; font-weight: 900; text-align: right; color: rgba(17, 20, 45, 0.6);\">{{item.name}}</h4>\r\n</div>\r\n\r\n<div style=\"display: flex; flex-direction: row; justify-content: space-between; align-items: start; margin: 0 3px; padding:4px;\">\r\n<h4 style=\"font-size: 13px; font-weight: 500; text-align: right;\">Stage Is : {{item.$stage$display}}</h4>\r\n</div>\r\n<div class=\"text-center\" style=\"width: 100%; display: flex; justify-content: start; margin: 5px 3px; flex-wrap: wrap;\">\r\n  <template v-for=\"subAssembly in $getGrid('subAssemblies').filter((sub) => sub.mainAssembly === item.rowKey)\">\r\n  <b-button  :key=\"subAssembly._id\" style=\"height:32px!important; display: flex; align-items: center; font-size:12px; border-color:black; flex-wrap: wrap; margin: 1px;\" size=\"sm\" :variant=\"subAssembly.$assignedAssembly$display ? 'success' : 'warning' \">\r\n    <!-- <b-badge\r\n     \r\n      style=\"color: #000; height:98%; display: flex; align-items: center; margin-left:10px;  color:#FFFFFF;\"\r\n      :variant=\"subAssembly.$assignedAssembly$display ? 'success' : 'warning'\"\r\n    >\r\n      {{ subAssembly.$part$display }}: {{subAssembly.$assignedAssembly$display}}\r\n    </b-badge> -->\r\n     {{ subAssembly.$part$display }}: {{subAssembly.$assignedAssembly$display}}\r\n  </b-button>\r\n  </template>\r\n</div>\r\n<div style=\"display: flex; flex-direction: row; justify-content: space-between; align-items: start; margin: 0 3px; padding:4px;\">\r\n<h4 style=\"font-size: 13px; font-weight: 700; margin-bottom: 5px;\">{{item.$part$display}}</h4>\r\n</div>\r\n\r\n",
+  "titleCol": "name",
+  "visibleLanes": [
+    "_BLANK",
+    "-Nlc4dgjnNkaHcZjJaYk",
+    "-Nlc4favjeos7eeR6hBI",
+    "-Nlc4i_S-PqXeRFsSZPo"
+  ],
+  "visibleLeftLanes": [
+    "_BLANK",
+    "-Nhc2I7dGXFnHzR6tQ0C",
+    "-Nhc2I7gTxGLewYVzAu-",
+    "-Nhc2I7sp1WwUmZlbR_C",
+    "-Nhc2I86gCbA-YHI85DF",
+    "-Nhc2I8IXMMtELUrEf0s",
+    "-Nhc2I8Xt2pZ5Nar_8e0"
+  ]
+}

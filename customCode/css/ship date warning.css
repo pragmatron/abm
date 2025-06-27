@@ -1,0 +1,9 @@
+.due-warning { color: orange !important; }
+.due-danger  { color: red    !important; }
+
+/* Or swap for badge-style:
+.due-warning { color:#fff !important; background:#ff9c2a !important;
+               padding:0 .25rem; border-radius:3px; }
+.due-danger  { color:#fff !important; background:#e03131 !important;
+               padding:0 .25rem; border-radius:3px; }
+*/

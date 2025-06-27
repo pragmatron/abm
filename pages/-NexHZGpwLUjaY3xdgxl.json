@@ -1,0 +1,9 @@
+{
+  "expandedByDefault": false,
+  "icon": {
+    "color": "rgba(158, 160, 160, 1)",
+    "name": "bar-chart"
+  },
+  "order": 14,
+  "title": "Reports"
+}

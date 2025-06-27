@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/cAPA",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "cAPA"
+  },
+  "subtab": "-NujaQn2shT1YOAi3VZV",
+  "tab": "-Nqlz2CjfHcIy_1RTtvV",
+  "type": "DataGrid"
+}

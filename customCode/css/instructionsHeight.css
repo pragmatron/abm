@@ -1,0 +1,3 @@
+.rowItem .controlElement:not(._dataGrid) textarea.form-control:not(.vs__search) {
+    height: 250px;
+}

@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/machineRepairRecords",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "machineRepairRecords"
+  },
+  "subtab": "-O3n9x-Uws3wPLpE8wHv",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "DataGrid"
+}

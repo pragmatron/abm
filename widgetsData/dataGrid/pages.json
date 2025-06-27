@@ -1,0 +1,3 @@
+{
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false}]}"
+}

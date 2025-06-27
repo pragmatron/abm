@@ -1,0 +1,14 @@
+{
+  "classes": "",
+  "gsOptions": {
+    "h": 10,
+    "w": 7,
+    "x": 0,
+    "y": 34
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "styles": ".card {\r\n    border: 1px solid #D3D3D3 !important;\r\n    padding: 0 !important;\r\n    max-height: 128px !important;\r\n}",
+  "tab": "-Ne7p3hQrEFoeEmmcGdt",
+  "title": ""
+}

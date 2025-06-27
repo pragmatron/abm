@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/receipts",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "receipts"
+  },
+  "subtab": "-NZQQur9O4UNE8KKX-LZ",
+  "tab": "-Nr17W8bgHH-tNTv5GOK",
+  "type": "DataGrid"
+}

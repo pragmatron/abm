@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/employeeEfficiency",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "employeeEfficiency"
+  },
+  "subtab": "-O0FGoNNktku66U0RZlG",
+  "tab": "-NuUI-yPnsfXVcYIkjEz",
+  "type": "DataGrid"
+}

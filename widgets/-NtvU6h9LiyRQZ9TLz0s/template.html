@@ -1,0 +1,16 @@
+<template>
+  <b-row class="d-flex align-items-center">
+    <b-col cols="auto">
+      <b-button @click="receiveDatagridPurchaseLines()" variant="success">
+        Receive Purchase Lines
+      </b-button>
+    </b-col>
+    <!-- <b-col>
+      <v-select
+        v-model="globalModels.vendor"
+        :options="$getGrid('vendors').map(vendor => ({ title: vendor.name, code: vendor.rowKey }))"
+        label="title"
+      ></v-select>
+    </b-col> -->
+  </b-row>
+</template>

@@ -1,0 +1,1 @@
+window.setAvailableOp = $vm.setAvailableOp

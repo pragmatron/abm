@@ -1,0 +1,17 @@
+{
+  "chartName": "ncrs",
+  "chartType": "bar",
+  "groupBy": [
+    {
+      "column": "nCRStage",
+      "key": "-O0p6eZGJBRpEcIux15f"
+    }
+  ],
+  "metrics": [
+    {
+      "column": "contact",
+      "key": "-O0p6fTUKebmWlQO3DF0",
+      "operator": "count"
+    }
+  ]
+}

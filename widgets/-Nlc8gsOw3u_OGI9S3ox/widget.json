@@ -1,0 +1,20 @@
+{
+  "classes": "",
+  "dependency": "boardData/-Nlc92bEi3ubPy2cjQ2s",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto;",
+  "props": {
+    "boardId": "-Nlc92bEi3ubPy2cjQ2s"
+  },
+  "styles": "",
+  "subtab": "-Nlc5WfLU2BUokPd7E9m",
+  "tab": "-NexHZGpwLUjaY3xdgxl",
+  "title": "",
+  "type": "Board"
+}

@@ -1,0 +1,4 @@
+{
+  "filterBuilder": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"AND\",\"key\":\"sourceTable\",\"operator\":\"contains\",\"value\":null,\"name\":\"Source Table\",\"expression\":false,\"hidden\":false},{\"andOr\":\"\",\"key\":\"name\",\"operator\":\"contains\",\"value\":null,\"name\":\"Name\",\"expression\":false,\"hidden\":false}]}",
+  "isReactive": true
+}

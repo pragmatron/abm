@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/workOrderBatches",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "workOrderBatches"
+  },
+  "subtab": "-NptLxDfpUnG5QoR_8GV",
+  "tab": "-O0PGo1HoCkJiWDYNURD",
+  "type": "DataGrid"
+}

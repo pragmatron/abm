@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/workOrderTemplate",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "workOrderTemplate"
+  },
+  "subtab": "-NbTrkfuj0s13aIBlmL8",
+  "tab": "-O0PGo1HoCkJiWDYNURD",
+  "type": "DataGrid"
+}

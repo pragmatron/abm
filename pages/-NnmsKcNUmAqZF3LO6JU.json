@@ -1,0 +1,9 @@
+{
+  "expandedByDefault": false,
+  "icon": {
+    "color": "rgba(52, 184, 127, 1)",
+    "name": "calculator"
+  },
+  "order": 2,
+  "title": "Quotes"
+}

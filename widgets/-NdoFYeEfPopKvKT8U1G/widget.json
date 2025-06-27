@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/pOLineTypes",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "pOLineTypes"
+  },
+  "subtab": "-NdoFYcB2k2LkpC4pmmN",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

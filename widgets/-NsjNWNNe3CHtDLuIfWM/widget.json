@@ -1,0 +1,22 @@
+{
+  "component": "-MqAVWhd6WTqEh3CgmF0",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 12,
+    "w": 15,
+    "x": 9,
+    "y": 5
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "borderRadius": "false",
+    "grow": "true",
+    "height": "",
+    "src": "{ \"doEval\": true, \"value\": \"this.row.partImage\" }",
+    "width": ""
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

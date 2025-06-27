@@ -1,0 +1,30 @@
+{
+  "classes": "",
+  "gsOptions": {
+    "h": 60,
+    "w": 24,
+    "x": 0,
+    "y": 5
+  },
+  "layout": "b-card",
+  "options": {
+    "addRecordText": "Add Quote & Open",
+    "addRecordsText": "",
+    "availableViews": [
+      "default",
+      "openQuotes",
+      "sentQuotes",
+      "lostQuotes",
+      "awarded"
+    ],
+    "view": "default"
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "quotes"
+  },
+  "styles": "",
+  "tab": "-NnmsKcNUmAqZF3LO6JU",
+  "title": "",
+  "type": "DataGrid"
+}

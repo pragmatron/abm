@@ -1,0 +1,17 @@
+{
+  "dependency": "dataGrid/purchaseLines",
+  "gsOptions": {
+    "h": 13,
+    "w": 24,
+    "x": 0,
+    "y": 2
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "purchaseLines"
+  },
+  "subtab": "-NZRGADe6DeHQNR-3ZWM",
+  "tab": "-NZQQontXXjN0Vo-nP8J",
+  "type": "DataGrid"
+}

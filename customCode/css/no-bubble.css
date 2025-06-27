@@ -1,0 +1,21 @@
+/* no-bubble  ▸  table-friendly version */
+.no-bubble,
+.no-bubble a {
+  /* let the cell’s own background show through */
+  background-color: transparent !important;
+
+  /* remove the badge-style spacing so it doesn’t cover the grid rule */
+  padding: 0 !important;
+  border-radius: 0;
+
+  /* keep the PO-matching typography */
+  color:       #111124 !important;
+  font-family: 'Noto Sans', 'Roboto', sans-serif !important;
+  font-size:   0.875rem !important;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;
+
+  /* still suppress the modal */
+  pointer-events: none !important;
+  cursor: default !important;
+}

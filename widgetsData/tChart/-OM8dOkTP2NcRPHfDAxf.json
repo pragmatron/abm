@@ -1,0 +1,25 @@
+{
+  "chartName": "Sales By Person",
+  "chartType": "horizontalBar",
+  "colorPalette": {
+    "colorPalette": {
+      "label": "Yellow, Green and Blue",
+      "value": "YellowGreenBlue"
+    }
+  },
+  "groupBy": [
+    {
+      "column": "salesperson",
+      "key": "-OM8dTPjtYb9wiLfZTd8"
+    }
+  ],
+  "maxResult": "500",
+  "metrics": [
+    {
+      "column": "totalQuoteLinePrice",
+      "format": "$0,0.00",
+      "key": "-OM8dRaxT3x3yw311tFc",
+      "operator": "sum"
+    }
+  ]
+}

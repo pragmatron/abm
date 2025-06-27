@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "options": {
+    "hideAddRecord": true
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "opportunityLine"
+  },
+  "styles": "",
+  "subtab": "-Nq8rF86hHOl-THexv_p",
+  "tab": "-Nr16kQdMyZP5X_9exWf",
+  "title": "",
+  "type": "DataGrid"
+}

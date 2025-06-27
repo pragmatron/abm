@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/qATemplate",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "qATemplate"
+  },
+  "subtab": "-Nt1PkamvRqcG3by3yhC",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

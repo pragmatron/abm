@@ -1,0 +1,20 @@
+{
+  "component": "-NswbQw1UlrQnBgQJOIj",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 3,
+    "w": 8,
+    "x": 0,
+    "y": 5
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "expression": "",
+    "optionsString": "Straight Rectangle, L Shape Rectangle, U Shape Rectangle, Straight Oblong, L Shape Oblong",
+    "selectText": "Desk Configuration"
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

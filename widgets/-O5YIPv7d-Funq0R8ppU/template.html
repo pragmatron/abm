@@ -1,0 +1,267 @@
+<template>
+  <div class="container">
+    <div class="work-orders-section" :class="{ 'half-width': selectedWorkOrder }">
+      <div v-if="!selectedWorkOrder || selectedWorkOrder" class="scrollable-container">
+        <div class="search-container">
+          <b-form-input v-model="workOrderSearch" placeholder="Search by WO Name" />
+        </div>
+        <div v-for="(workOrder, index) in filteredWorkOrders" :key="index" class="cards-container" @click="selectWorkOrder(workOrder)">
+          <div class="work-order-item">
+            <div class="work-order-details">
+              <h3>{{ workOrder.name }}</h3>
+              <p style="margin: 0 !important;"><strong>Part:</strong> {{ workOrder.$part$display }}</p>
+              <p style="margin: 0 !important;"><strong>Customer:</strong> {{ workOrder.$customer$display }}</p>
+              <p style="margin: 0 !important;"><strong>Due Date:</strong> {{ workOrder.dueDate }}</p>
+            </div>
+            <b-button @click.stop="openWorkOrder(workOrder)" variant="primary">
+              Open
+            </b-button>
+            <b-button @click="selectWorkOrder(workOrder)" variant="success">
+              Preview
+            </b-button>
+              <b-button v-if="!workOrder.activeUser && !workOrder.completed" @click="startWorkOrder(workOrder)" variant="success">
+                Start
+              </b-button>
+              <b-button v-if="workOrder.activeUser && !workOrder.completed" @click="pauseWorkOrder(workOrder)" variant="warning">
+                Stop
+              </b-button>
+          </div>
+          <img :src="workOrder?.$part?.partImage?.url" alt="Part Image" class="part-image" />
+        </div>
+      </div>
+    </div>
+
+    <div v-if="selectedWorkOrder" class="operations-section half-width">
+ 
+      <div class="filters-section">
+        <v-select v-model="selectedResource" :options="resourceOptions" placeholder="Filter by Resource"></v-select>
+        <v-select v-model="selectedPart" :options="partOptions" placeholder="Filter by Part"></v-select>
+      </div>
+
+      <div class="operations-list">
+        <h3>Operations for {{ selectedWorkOrder.name }}</h3>
+        <div v-for="(row, index) in filteredOperations" :key="index" class="cards-container">
+          <div class="middle-section">
+            <div class="md-section_boxText">
+              <p style="margin: 0 !important;" class="md-section_text">
+                <span class="md-section_span">Part:</span> {{ row?.$part$display }}
+              </p>
+              <p style="margin: 0 !important;" class="md-section_text">
+                <span class="md-section_span">Step:</span> {{ row?.name }}
+              </p>
+              <p style="margin: 0 !important;" class="md-section_text">
+                <span class="md-section_span">Job:</span>
+                <b>{{ row?.$workOrder$display }}</b>
+              </p>
+            </div>
+            <div class="md-section_boxText">
+              <p style="margin: 0 !important;" class="md-section_text">
+                <span class="md-section_span">Operator:</span> {{ row?.$operator$display }} 
+              </p>
+            </div>
+          </div>
+          <div class="lower-section">
+            <div class="lower-actions">
+              <b-button @click="$dgShowEditRowModal('workOrderOperations', row?.rowKey)" variant="primary">
+                Open
+              </b-button>
+              <b-button  @click="finishOperation(row)" variant="danger">
+                Finish
+              </b-button>
+            </div>
+            <div class="progress-section">
+              <p class="progress-timers_qty">
+                Qty completed: {{ row?.quantityCompleted }}
+              </p>
+              <p style="margin: 0 !important;" class="progress-timers_qty">
+                Qty Required: {{ row?.quantityRequired }}
+              </p>
+              <b-progress :value="row?.quantityCompleted" :max="row?.quantityRequired" class="w-100"></b-progress>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<script>
+module.exports = {
+  data() {
+    return {
+      workOrders: [],
+      workOrderOperations: [],
+      selectedWorkOrder: null,
+      selectedResource: null,
+      selectedPart: null,
+      workOrderSearch: '', 
+    };
+  },
+  computed: {
+        filteredWorkOrders() {
+      if (!this.workOrderSearch) {
+        return this.workOrders;
+      }
+      // Filter work orders by name, handling cases where 'name' might be null or undefined
+      return this.workOrders.filter(order => 
+        order.name && order.name.toLowerCase().includes(this.workOrderSearch.toLowerCase())
+      );
+    },
+    filteredOperations() {
+      let filtered = this.workOrderOperations;
+
+      if (this.selectedResource) {
+        filtered = filtered.filter(
+          (operation) => operation.$resource$display === this.selectedResource
+        );
+      }
+
+      if (this.selectedPart) {
+        filtered = filtered.filter(
+          (operation) => operation.$part$display === this.selectedPart
+        );
+      }
+
+      return filtered;
+    },
+    resourceOptions() {
+      // Get unique resources from the operations
+      return [...new Set(this.workOrderOperations.map(op => op.$resource$display))];
+    },
+    partOptions() {
+      // Get unique parts from the operations
+      return [...new Set(this.workOrderOperations.map(op => op.$part$display))];
+    },
+  },
+  mounted() {
+    this.loadWorkOrders();
+  },
+  methods: {
+    loadWorkOrders() {
+      this.workOrders = $getGrid('opportunityLines');
+    },
+    selectWorkOrder(workOrder) {
+      this.selectedWorkOrder = workOrder;
+      this.workOrderOperations = $getGrid('workOrderOperations').filter(
+        (f) => f.workOrder === workOrder.rowKey
+      );
+    },
+    deselectWorkOrder() {
+      this.selectedWorkOrder = null;
+      this.workOrderOperations = [];
+      this.selectedResource = null;
+      this.selectedPart = null;
+    },
+    openWorkOrder(workOrder) {
+      $dgShowEditRowModal('opportunityLines', workOrder.rowKey);
+    },
+    async startWorkOrder(row) {
+      let newEntry = await $dgAddRow('timeEntries', {
+        name: row.name,
+        employee: fbUser.uid,
+        started: new Date().toISOString(), // Current date and time in ISO format
+        workOrder: row.rowKey, // Setting the operation to data.rowKey
+        resource: row.resource, // Setting the resource from the data object
+        resourceGroup: row.resourceGroup || null,
+      });
+
+      await $dgSetRowVals('opportunityLines', row.rowKey, {
+        activeUser: fbUser.uid
+      })
+      // await $dgSetRowVals('workOrderOperations', row.rowKey, {
+      //   timeEntry: newEntry,
+      //   activeUser: fbUser.uid,
+      //   started: new Date().toISOString()
+      // });
+
+    },
+    async pauseWorkOrder(row) {
+      let timeEntry = $getGrid('timeEntries').find((f) => !f.stopped && f.workOrder === row.rowKey);
+
+      await $dgSetRowVals('timeEntries', timeEntry?.rowKey, {
+        stopped: new Date().toISOString(),
+      });
+
+      await $dgSetRowVals('opportunityLines', row.rowKey, {
+        activeUser: null,
+        stopped: new Date().toISOString(),
+        // timeEntry: null
+      });
+    },
+    async finishOperation(row) {
+      await $dgSetRowVals('workOrderOperations', row.rowKey, {
+        timeEntry: null,
+        completed: true
+      });
+      // Implement the logic to finish the operation
+    },
+  },
+};
+</script>
+
+<style scoped>
+.container {
+  display: flex;
+  height: 100%;
+  gap: 10px;
+}
+
+.work-orders-section,
+.operations-section {
+  flex: 1;
+  transition: width 0.3s ease;
+}
+
+.half-width {
+  flex: 0.5;
+}
+
+.scrollable-container {
+  overflow-y: auto;
+  background-color: white;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  border: 1px #e9ecef solid;
+  border-radius: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+  background-color: white;
+}
+
+.part-image {
+  max-height: 150px;
+  margin-right: 10px;
+}
+
+.operations-section {
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.operations-list {
+  overflow-y: auto;
+}
+
+.filters-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  margin-top: 10px;
+}
+
+.lower-actions {
+  display: flex;
+  gap: 5px;
+}
+
+
+</style>

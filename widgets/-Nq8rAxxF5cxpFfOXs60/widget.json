@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/opportunity",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "opportunity"
+  },
+  "subtab": "-Nq8rAuhoWhCzcVgJg6K",
+  "tab": "-Nr16kQdMyZP5X_9exWf",
+  "type": "DataGrid"
+}

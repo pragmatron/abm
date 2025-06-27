@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/machines",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "machines"
+  },
+  "subtab": "-O0asznuWFSgBzDg2kNy",
+  "tab": "-NuUI-yPnsfXVcYIkjEz",
+  "type": "DataGrid"
+}

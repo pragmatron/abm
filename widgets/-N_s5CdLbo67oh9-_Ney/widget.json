@@ -1,0 +1,17 @@
+{
+  "container": "-N_s5Bgic8zIfSx0AjK7",
+  "dependency": "dataGrid/currencies",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "currencies"
+  },
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

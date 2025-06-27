@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/timeCards",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "timeCards"
+  },
+  "subtab": "-NeZeyuRjhZBYN2pP0Zg",
+  "tab": "-O0PGo1HoCkJiWDYNURD",
+  "type": "DataGrid"
+}

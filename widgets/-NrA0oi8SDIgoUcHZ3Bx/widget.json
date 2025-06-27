@@ -1,0 +1,15 @@
+{
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "locationInventory"
+  },
+  "tab": "-NZQQs9Gj86cPY8Oc51P",
+  "type": "DataGrid"
+}

@@ -1,0 +1,33 @@
+{
+  "chartName": "Sales By Year",
+  "chartType": "table",
+  "colorPalette": {
+    "colorPalette": {
+      "label": "Green",
+      "value": "green"
+    }
+  },
+  "datalabels": {
+    "hidden": false
+  },
+  "filterValues": {
+    "hidden": false
+  },
+  "groupBy": [
+    {
+      "column": "$createdDate$Year",
+      "key": "-OMTL6fR0XY2Nt07EAea"
+    }
+  ],
+  "labels": {
+    "hidden": false
+  },
+  "metrics": [
+    {
+      "column": "totalQuoteLinePrice",
+      "format": "$0,0.00",
+      "key": "-OMTL4Gvk3fj0573rdc0",
+      "operator": "sum"
+    }
+  ]
+}

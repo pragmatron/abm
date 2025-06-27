@@ -1,0 +1,22 @@
+{
+  "component": "-MqEN7iRrCZM75Khx_7o",
+  "container": "-Ne7trfoR1DSu_-FXs42",
+  "gsOptions": {
+    "h": 1,
+    "w": 4,
+    "x": 0,
+    "y": 4
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "fullWidth": true,
+    "isOutlined": false,
+    "onClickHandler": "$dgShowEditRowModal('workOrderOperations', rowKey)",
+    "size": "sm",
+    "text": "{ \"doEval\": true, \"isExpression\": true, \"value\": \"Start\" }",
+    "variant": "success"
+  },
+  "tab": "-Ne7p3hQrEFoeEmmcGdt",
+  "type": "custom"
+}

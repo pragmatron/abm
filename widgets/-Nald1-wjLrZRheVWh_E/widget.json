@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/salesOrderTemplate",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "salesOrderTemplate"
+  },
+  "subtab": "-Nald0yqMlavFdz1xv8m",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

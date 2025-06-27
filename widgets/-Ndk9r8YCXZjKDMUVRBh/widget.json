@@ -1,0 +1,17 @@
+{
+  "container": "-Ndk9qApvqHXO7cP0v_s",
+  "dependency": "dataGrid/materialCategories",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "materialCategories"
+  },
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

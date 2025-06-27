@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/workorderrequirements",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "workorderrequirements"
+  },
+  "subtab": "-O0azx47GsmnNk5GWzUD",
+  "tab": "-NuUI-yPnsfXVcYIkjEz",
+  "type": "DataGrid"
+}

@@ -1,0 +1,27 @@
+{
+  "component": "-Nsjdaw47LXhvwpNiVDy",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 2,
+    "w": 12,
+    "x": 11,
+    "y": 30
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "ProductImagesrc": "{ \"doEval\": true, \"value\": \"this.row.partImage\" }",
+    "backgroundColor": "#dd7f27",
+    "fontColor": "#ffffff",
+    "fontSize": "13",
+    "fontWeight": "400",
+    "fullWidth": true,
+    "onClickHandler": "",
+    "productName": "{ \"doEval\": true, \"value\": \"this.row.$displayName\" }",
+    "productPrice": "{ \"doEval\": true, \"value\": \"this.row.price\" }",
+    "text": "Add To Cart"
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

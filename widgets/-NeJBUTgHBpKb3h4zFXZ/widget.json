@@ -1,0 +1,17 @@
+{
+  "container": "-NeJB4ApiMGlRis1vb0Q",
+  "dependency": "dataGrid/salesOrderStatus",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "salesOrderStatus"
+  },
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

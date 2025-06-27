@@ -1,0 +1,40 @@
+<script>
+(function () {
+  /* ---- CONFIGURE THESE TWO SELECTORS IF NEEDED ---- */
+  // 1.  Every <td> (or <span>) whose innerText is the date we care about
+  const DUE_CELL_SELECTOR = '[data-field="dueDate"]';      // adjust to your markup
+  // 2.  An event Tangle fires whenever the grid refreshes; fallback is 1-second poll.
+  const GRID_EVENT        = 'tangle:gridDataUpdated';      // change if you have a different one
+
+  /* ---- CORE LOGIC ---- */
+  const MS_PER_DAY = 86_400_000;
+
+  function tagDueDates() {
+    const today = new Date();               // local browser tz
+    today.setHours(0, 0, 0, 0);             // midnight
+
+    document.querySelectorAll(DUE_CELL_SELECTOR).forEach(el => {
+      const txt  = el.textContent.trim();   // e.g. 04/27/2025
+      const date = new Date(txt);
+      if (isNaN(date)) return;              // bail if not a real date
+
+      const diff = (date - today) / MS_PER_DAY;  // +ve = future
+      el.classList.remove('due-warning', 'due-danger');
+
+      if (diff < 0 || diff <= 1) el.classList.add('due-danger');   // past due or 1 day left
+      else if (diff <= 3)        el.classList.add('due-warning');  // 2-3 days left
+    });
+  }
+
+  /* ---- RUN on load + whenever the grid redraws ---- */
+  tagDueDates();                                    // initial
+  window.addEventListener(GRID_EVENT, tagDueDates); // dynamic grid
+  setInterval(tagDueDates, 1000);                   // safety poll
+})();
+</script>
+
+<style>
+/* tweak colours / weights to taste */
+.due-warning { color: orange !important; }
+.due-danger  { color: red    !important; }
+</style>

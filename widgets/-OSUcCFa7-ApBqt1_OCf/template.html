@@ -1,0 +1,19 @@
+<template>
+  <div>
+    <select id="partSelect">
+      <option
+        v-for="part in $getGrid('parts')"
+        :key="part.rowKey"
+        :value="part.rowKey"
+      >
+        {{ part.name }}
+      </option>
+    </select>
+
+    <b-button
+      @click="window.processMethodMaterials(document.getElementById('partSelect').value)"
+    >
+      Map
+    </b-button>
+  </div>
+</template>

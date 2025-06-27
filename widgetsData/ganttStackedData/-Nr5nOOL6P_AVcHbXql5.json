@@ -1,0 +1,34 @@
+{
+  "chartTitle": "Projects",
+  "dataSource": "projects",
+  "filter": {
+    "condition": "AND",
+    "rules": [
+      {
+        "andOr": "",
+        "expression": false,
+        "hidden": false,
+        "key": "name",
+        "name": "Name",
+        "operator": "contains"
+      }
+    ]
+  },
+  "gsOptions": {
+    "h": 8,
+    "w": 16
+  },
+  "lastSelectedTimePeriod": "weeks",
+  "tab": "-Nj9mbBkjUqdiS8Nanwk",
+  "taskDGFields": {
+    "assignedTo": "owner",
+    "color": "color",
+    "description": "description",
+    "end": "endDate",
+    "name": "name",
+    "progress": "progress",
+    "resource": "resource",
+    "start": "startDate"
+  },
+  "template": ""
+}

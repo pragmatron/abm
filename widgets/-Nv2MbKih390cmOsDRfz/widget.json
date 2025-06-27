@@ -1,0 +1,16 @@
+{
+  "dependency": "tpivottables/-Nv2Mci-N0b_rusoEaY_",
+  "gsOptions": {
+    "h": 18,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "props": {
+    "dataKey": "-Nv2Mci-N0b_rusoEaY_"
+  },
+  "subtab": "-Nv2M_W66D1n58lfOGc2",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "tPivotTable"
+}

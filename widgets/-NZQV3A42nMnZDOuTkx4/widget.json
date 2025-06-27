@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/vendors",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "vendors"
+  },
+  "subtab": "-NZQV371Js-Ud3qdajnH",
+  "tab": "-OLqWdly_g1YV4q6dCSu",
+  "type": "DataGrid"
+}

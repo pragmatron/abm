@@ -1,0 +1,20 @@
+{
+  "component": "-NxmQsjYuxFWzueKOHga",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 2,
+    "w": 8,
+    "x": 0,
+    "y": 25
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "expression": "",
+    "optionsString": "60, 72, 84, 96, Custom",
+    "selectText": "Width"
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

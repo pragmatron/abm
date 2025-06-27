@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/capaNotes",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "capaNotes"
+  },
+  "subtab": "-NvcER8ZG2KrdBDDQeOz",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "DataGrid"
+}

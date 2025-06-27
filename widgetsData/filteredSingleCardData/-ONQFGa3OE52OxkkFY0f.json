@@ -1,0 +1,29 @@
+{
+  "dataSource": "quotes",
+  "filter": "{\"condition\":\"AND\",\"rules\":[{\"andOr\":\"\",\"key\":\"createdDate\",\"operator\":\"date\",\"value\":{\"type\":\"between\",\"date1\":1748750400000,\"date2\":1751256000000},\"name\":\"Filter By Month \",\"expression\":false,\"hidden\":false}]}",
+  "gsOptions": {
+    "adjustLayoutPosition": {
+      "-O0P7AwfPIEoHFof14Js": {
+        "h": 36,
+        "w": 24,
+        "x": 0,
+        "y": 3
+      },
+      "-OLSAsZkiptWsQFgfjOD": {
+        "h": 3,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "-ONQEzZAu5ms9_a0hCcl": {
+        "h": 6,
+        "w": 12,
+        "x": 5,
+        "y": 39
+      }
+    },
+    "droppedItemWidgetKey": "-ONQEzZAu5ms9_a0hCcl"
+  },
+  "tab": "-NnmsKcNUmAqZF3LO6JU",
+  "template": "<div class=\"row-quoteView\">\r\n  <div class=\"col-lg-12 col-sm-12 column\">\r\n    <div class=\"d-flex flex-column p-2 bg-white\">\r\n\r\n      <!-- Card Title -->\r\n      <h6 class=\"font-weight-bold mb-3\">Quotes Overview (This Month)</h6>\r\n\r\n      <!-- METRICS ROW -->\r\n      <div class=\"d-flex justify-content-between w-100 flex-wrap\"\r\n           style=\"margin-left: 0px !important;\">\r\n\r\n        <!-- TOTAL -->\r\n        <div class=\"d-flex flex-column align-items-start justify-content-center flex-grow-1 mx-1 p-2 rounded\" \r\n             style=\"background-color: #f5f8f7; color: #000; margin-left: 0px;\">\r\n          <div class=\"d-flex align-items-center mb-1\">\r\n            <i class=\"fas fa-receipt mr-2\"></i>\r\n            <small>Total</small>\r\n          </div>\r\n          <div style=\"font-size: 1.25rem; font-weight: bold;\">\r\n            {{\r\n              filteredRecords\r\n                .reduce((acc, q) => acc + parseFloat(q.totalQuoteLinePrice || 0), 0)\r\n                .toLocaleString('en-US', { style: 'currency', currency: 'USD' })\r\n            }}\r\n          </div>\r\n        </div>\r\n\r\n        <!-- OPEN -->\r\n        <div class=\"d-flex flex-column align-items-start justify-content-center flex-grow-1 mx-1 p-2 rounded\" \r\n             style=\"background-color: #ccc; color: #000; flex-grow: 1; min-width: 150px;\">\r\n          <div class=\"d-flex align-items-center mb-1\">\r\n            <i class=\"fas fa-folder-open mr-2\"></i>\r\n            <small>Open</small>\r\n          </div>\r\n          <div style=\"font-size: 1.25rem; font-weight: bold;\">\r\n            {{\r\n              filteredRecords\r\n                .filter(q => q.$state$display === 'OPEN')\r\n                .reduce((acc, q) => acc + parseFloat(q.totalQuoteLinePrice || 0), 0)\r\n                .toLocaleString('en-US', { style: 'currency', currency: 'USD' })\r\n            }}\r\n          </div>\r\n        </div>\r\n\r\n        <!-- SENT -->\r\n        <div class=\"d-flex flex-column align-items-start justify-content-center flex-grow-1 mx-1 p-2 rounded\" \r\n             style=\"background-color: #ffcc80; color: #000; flex-grow: 1; min-width: 150px;\">\r\n          <div class=\"d-flex align-items-center mb-1\">\r\n            <i class=\"fas fa-paper-plane mr-2\"></i>\r\n            <small>Sent</small>\r\n          </div>\r\n          <div style=\"font-size: 1.25rem; font-weight: bold;\">\r\n            {{\r\n              filteredRecords\r\n                .filter(q => q.$state$display === 'SENT')\r\n                .reduce((acc, q) => acc + parseFloat(q.totalQuoteLinePrice || 0), 0)\r\n                .toLocaleString('en-US', { style: 'currency', currency: 'USD' })\r\n            }}\r\n          </div>\r\n        </div>\r\n\r\n        <!-- AWARDED -->\r\n        <div class=\"d-flex flex-column align-items-start justify-content-center flex-grow-1 mx-1 p-2 rounded\" \r\n             style=\"background-color: #a5d6a7; color: #000; flex-grow: 1; min-width: 150px;\">\r\n          <div class=\"d-flex align-items-center mb-1\">\r\n            <i class=\"fas fa-check-circle mr-2\"></i>\r\n            <small>Awarded</small>\r\n          </div>\r\n          <div style=\"font-size: 1.25rem; font-weight: bold;\">\r\n            {{\r\n              filteredRecords\r\n                .filter(q => q.$state$display === 'AWARDED')\r\n                .reduce((acc, q) => acc + parseFloat(q.totalQuoteLinePrice || 0), 0)\r\n                .toLocaleString('en-US', { style: 'currency', currency: 'USD' })\r\n            }}\r\n          </div>\r\n        </div>\r\n\r\n        <!-- LOST -->\r\n        <div class=\"d-flex flex-column align-items-start justify-content-center flex-grow-1 mx-1 p-2 rounded\" \r\n             style=\"background-color: #ef9a9a; color: #000; flex-grow: 1; min-width: 150px;\">\r\n          <div class=\"d-flex align-items-center mb-1\">\r\n            <i class=\"fas fa-times-circle mr-2\"></i>\r\n            <small>Lost</small>\r\n          </div>\r\n          <div style=\"font-size: 1.25rem; font-weight: bold;\">\r\n            {{\r\n              filteredRecords\r\n                .filter(q => q.$state$display === 'LOST')\r\n                .reduce((acc, q) => acc + parseFloat(q.totalQuoteLinePrice || 0), 0)\r\n                .toLocaleString('en-US', { style: 'currency', currency: 'USD' })\r\n            }}\r\n          </div>\r\n        </div>\r\n\r\n      </div> <!-- End METRICS ROW -->\r\n    </div>\r\n  </div>\r\n</div>"
+}

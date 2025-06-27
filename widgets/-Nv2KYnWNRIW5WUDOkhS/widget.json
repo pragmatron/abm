@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/materialConsumed",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "materialConsumed"
+  },
+  "subtab": "-Nv2KYlY7jKUtEAQEmr4",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "DataGrid"
+}

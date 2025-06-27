@@ -1,0 +1,6 @@
+{
+  "props": {
+    "isVisible": true,
+    "optionsString": "\"Brass,Copper,Tin\""
+  }
+}

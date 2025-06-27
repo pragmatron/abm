@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/capaagain2",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "capaagain2"
+  },
+  "subtab": "-Nzin6NQeFdtcZwbK4gl",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

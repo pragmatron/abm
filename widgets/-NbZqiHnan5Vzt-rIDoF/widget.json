@@ -1,0 +1,17 @@
+{
+  "container": "-NbZqhHZC6H-u4F-2Her",
+  "dependency": "dataGrid/carrier",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "carrier"
+  },
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

@@ -1,0 +1,17 @@
+{
+  "classes": "",
+  "dependency": "dataGrid/workOrderMaterials",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "workOrderMaterials"
+  },
+  "styles": "",
+  "subtab": "-NZl1RdbLQ4GElkF1vGT",
+  "tab": "-O0PGo1HoCkJiWDYNURD",
+  "title": "",
+  "type": "DataGrid"
+}

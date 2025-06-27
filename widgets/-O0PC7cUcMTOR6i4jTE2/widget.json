@@ -1,0 +1,22 @@
+{
+  "classes": "",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "options": {
+    "addRecordText": "Add Sales Line & Open "
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "salesLines"
+  },
+  "styles": "",
+  "subtab": "-Nnms9PxiFtN9k3WMeU-",
+  "tab": "-NZQQhYtGqKTbT0LahRT",
+  "title": "",
+  "type": "DataGrid"
+}

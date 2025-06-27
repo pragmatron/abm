@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/materialClasses",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "materialClasses"
+  },
+  "subtab": "-N_t-Rg3n_mXk_5RbAtg",
+  "tab": "-N_dHWeF8um-thlGP_lt",
+  "type": "DataGrid"
+}

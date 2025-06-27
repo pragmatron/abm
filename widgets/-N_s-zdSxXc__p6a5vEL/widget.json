@@ -1,0 +1,17 @@
+{
+  "container": "-N_s-yNV0Kak66lPm0bK",
+  "dependency": "dataGrid/customerGroups",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "customerGroups"
+  },
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

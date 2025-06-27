@@ -1,0 +1,24 @@
+{
+  "classes": "",
+  "dependency": "dataGrid/estimateOperations",
+  "gsOptions": {
+    "h": 12,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "options": {
+    "addRecordText": "N/A",
+    "hideAddRecord": false
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "estimateOperations"
+  },
+  "styles": "",
+  "subtab": "-NpZnyzwOvVw8Eb-9ZXd",
+  "tab": "-NnmsKcNUmAqZF3LO6JU",
+  "title": "",
+  "type": "DataGrid"
+}

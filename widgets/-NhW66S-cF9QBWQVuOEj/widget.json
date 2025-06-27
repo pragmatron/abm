@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/outgoingEmails",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "outgoingEmails"
+  },
+  "subtab": "-NhW66OvTVXM-yEy05c9",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

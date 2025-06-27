@@ -1,0 +1,147 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-Nl_dXRNLoCxU_0EpSGM",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1702512403390",
+        "x": 449.87264679445167,
+        "y": 116.89254265732019,
+        "name": "start-event",
+        "label": "Start Event",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1702512406736",
+        "x": 848.528060914,
+        "y": 146.0087127684,
+        "name": "user-task",
+        "label": "first approval",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "#general"
+        },
+        "outcomes": [
+          {
+            "id": "outcome1702512413923",
+            "text": "approved",
+            "expression": "",
+            "idx": 1
+          },
+          {
+            "id": "outcome1702512416673",
+            "text": "rejected",
+            "expression": "",
+            "idx": 2
+          },
+          {
+            "id": "outcome1702512419851",
+            "text": "questions",
+            "expression": "",
+            "idx": 3
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1702512436250",
+        "x": 1357.6448974624,
+        "y": 97.3391418456,
+        "name": "decision",
+        "label": "Decision",
+        "clazz": "decision",
+        "icon": {
+          "name": "check-circle",
+          "color": "hsl(11, 96%, 62%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1702512443672",
+        "x": 1569.7769126909,
+        "y": 267.6826400754,
+        "name": "user-task",
+        "label": "User Task",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1709551569263",
+        "x": 848.528060914,
+        "y": 365.021781921,
+        "name": "script-task",
+        "label": "Script Task",
+        "clazz": "scriptTask",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 60,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "3c451e71-c8c6-4640-a9da-852124b50151",
+        "source": "node1702512403390",
+        "target": "node1702512406736",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Start Event",
+        "targetLabel": "first approval",
+        "style": {}
+      },
+      {
+        "id": "35bb2788-7ad9-4cd9-bff4-8853238a2dcf",
+        "source": "outcome1702512413923",
+        "target": "node1702512443672",
+        "startSocket": "right",
+        "endSocket": "left",
+        "targetLabel": "User Task",
+        "expression": "",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": -290.9999437982671,
+      "y": 54.20208918406806,
+      "scale": 0.8115067711989942,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "isometric",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": true,
+  "name": "hr approval"
+}

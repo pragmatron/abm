@@ -1,0 +1,23 @@
+{
+  "classes": "",
+  "dependency": "dataGrid/shipping",
+  "gsOptions": {
+    "h": 1,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "options": {
+    "addRecordText": "Add Shipment"
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "shipping"
+  },
+  "styles": "",
+  "subtab": "-NZQQnMdVaJBohxveByo",
+  "tab": "-Nr17W8bgHH-tNTv5GOK",
+  "title": "",
+  "type": "DataGrid"
+}

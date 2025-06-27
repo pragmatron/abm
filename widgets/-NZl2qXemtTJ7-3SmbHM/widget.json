@@ -1,0 +1,23 @@
+{
+  "classes": "",
+  "dependency": "dataGrid/workOrderOperations",
+  "gsOptions": {
+    "h": 14,
+    "w": 24,
+    "x": 0,
+    "y": 2
+  },
+  "layout": "b-card",
+  "options": {
+    "view": "default"
+  },
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "workOrderOperations"
+  },
+  "styles": "",
+  "subtab": "-NZl2qVGXgb-RAPyYp3x",
+  "tab": "-O0PGo1HoCkJiWDYNURD",
+  "title": "",
+  "type": "DataGrid"
+}

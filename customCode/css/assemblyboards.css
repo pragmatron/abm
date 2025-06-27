@@ -1,0 +1,35 @@
+/* .board-component__cell {
+  
+
+
+}
+
+
+
+
+.sortable-inner-component__dynamicTemplate {
+    font-weight: 800;
+}
+
+
+
+/* Hide the component when necessary */
+/* .sortable-inner-component__small_template {
+    display: none;
+}
+
+.board-component__left-headers {
+    background-color: #26495c !important;
+    font-size: 30px !important;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.board-component__headers {
+    background-color: #26495c !important;
+    font-size: 20px !important ; font-family: 'Times New Roman', Times, serif
+
+}
+
+.board-component__cell {
+    background-color: #D6CFC7
+} 

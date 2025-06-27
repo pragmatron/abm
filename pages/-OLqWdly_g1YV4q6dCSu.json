@@ -1,0 +1,8 @@
+{
+  "icon": {
+    "color": "rgba(52, 184, 127, 1)",
+    "name": "address-book"
+  },
+  "order": 1,
+  "title": "CRM Data"
+}

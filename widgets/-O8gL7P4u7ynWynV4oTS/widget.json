@@ -1,0 +1,17 @@
+{
+  "container": "-O8gL686QT0aXMKubxji",
+  "dependency": "dataGrid/shippingTerms",
+  "gsOptions": {
+    "h": 4,
+    "w": 24,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "shippingTerms"
+  },
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

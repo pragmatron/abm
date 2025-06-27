@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/methodMaterials",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "methodMaterials"
+  },
+  "subtab": "-NbK16lggl6d2GNvWJDM",
+  "tab": "-N_dHWeF8um-thlGP_lt",
+  "type": "DataGrid"
+}

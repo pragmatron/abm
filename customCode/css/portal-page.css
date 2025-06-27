@@ -1,0 +1,36 @@
+.containerWidget__controls._inCardList{
+    display:none;
+}
+
+.vue-grid-item{
+    overflow:visible!important;
+}
+.dashboard__wrapper > .appNav {
+    display: none !important;
+}
+.sidenav{
+    display: none !important;
+}
+#panel{
+    margin: 0!important;
+    padding:0px!important;
+}
+.sidebar{
+    display:none;
+}
+.dashboard__wrapper._navInSideBar .dashboard__content{
+    padding: 0!important;
+}
+.sidebarState-expanded .dashboard__wrapper.main-content {
+    padding-left: 0;
+}
+.sidebarState-expanded .sidebar {
+    width: 0;
+}
+.widget-card-list._childMinAndMaxWidth {
+    justify-content: center;
+}
+
+#widget-NsiG5-gEn1SxVexhc25{
+    margin-top:100px;
+}

@@ -1,0 +1,9 @@
+{
+  "expandedByDefault": false,
+  "icon": {
+    "color": "rgba(0, 0, 0, 1)",
+    "name": "cogs"
+  },
+  "order": 13,
+  "title": "Setup"
+}

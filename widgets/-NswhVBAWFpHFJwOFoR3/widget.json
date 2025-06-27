@@ -1,0 +1,20 @@
+{
+  "component": "-NswbQw1UlrQnBgQJOIj",
+  "container": "-NsiGCX5DA6lyrPy1TSU",
+  "gsOptions": {
+    "h": 1,
+    "w": 13,
+    "x": 6,
+    "y": 29
+  },
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "expression": "this.row.name.includes('Bracket')",
+    "optionsString": "Brass,Copper,Tin",
+    "selectText": "Select Material"
+  },
+  "subtab": "-NsiFfV9qNQdBB7SC8DN",
+  "tab": "-O8lmX0JUEzjFjGzr8Bd",
+  "type": "custom"
+}

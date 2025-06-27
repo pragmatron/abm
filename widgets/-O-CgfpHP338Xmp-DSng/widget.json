@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/inspectionReportItems",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "inspectionReportItems"
+  },
+  "subtab": "-O-CgfnYySpXPmE6h18Q",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

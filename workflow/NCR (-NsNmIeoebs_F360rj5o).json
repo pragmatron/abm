@@ -1,0 +1,318 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-NsNmIeoebs_F360rj5o",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1709812893113",
+        "x": 520.1571563745026,
+        "y": 119.17901635160655,
+        "name": "start-event",
+        "label": "Submit NCR",
+        "clazz": "startEvent",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1709814523000",
+        "x": 913,
+        "y": 236,
+        "name": "user-task",
+        "label": "First review",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {
+          "user": "nvphi0hEIDeEoCzWFWZnXKcwec93"
+        },
+        "outcomes": [
+          {
+            "id": "outcome1709814587712",
+            "text": "Scrap",
+            "expression": "",
+            "idx": 1
+          },
+          {
+            "id": "outcome1709814598352",
+            "text": "Return To Supplier",
+            "expression": "",
+            "idx": 2
+          },
+          {
+            "id": "outcome1709814609513",
+            "text": "Use As Is",
+            "expression": "",
+            "idx": 3
+          },
+          {
+            "id": "outcome1709814613488",
+            "text": "Rework",
+            "expression": "",
+            "idx": 4
+          },
+          {
+            "id": "outcome1709814620735",
+            "text": "Approve",
+            "expression": "",
+            "idx": 5
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1709814906543",
+        "x": 1325,
+        "y": 54,
+        "name": "update-record",
+        "label": "Scrap",
+        "clazz": "updateRecord",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "nCR / nCRStage",
+          "fieldValue": "'-Nr598bTU-Bi1VWvw0MS'"
+        },
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1709815511774",
+        "x": 1249.1278052282196,
+        "y": 753.984046017774,
+        "name": "update-record",
+        "label": "Approve",
+        "clazz": "updateRecord",
+        "icon": {
+          "name": "pen",
+          "color": "hsl(189, 87%, 50%)"
+        },
+        "attachment": {
+          "field": "nCR / nCRStage",
+          "fieldValue": "'-NsNtpyg2oZlO2lE6rj9'"
+        },
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1709818470506",
+        "x": 1330.7219598197676,
+        "y": -236.5992513919916,
+        "name": "end-event",
+        "label": "End Event",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1709818531108",
+        "x": 1330.7219598197676,
+        "y": -236.5992513919916,
+        "name": "end-event",
+        "label": "End Event 9146",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1709818534580",
+        "x": 1269.5797237049987,
+        "y": 1059.4779656276485,
+        "name": "end-event",
+        "label": "End Event 9358",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710527263054",
+        "x": 1574,
+        "y": 173,
+        "name": "user-task",
+        "label": "send back to supplier",
+        "clazz": "userTask",
+        "icon": {
+          "name": "user",
+          "color": "hsl(235, 71%, 65%)"
+        },
+        "attachment": {},
+        "outcomes": [
+          {
+            "id": "outcome1710527304616",
+            "text": "done",
+            "expression": "",
+            "idx": 1
+          },
+          {
+            "id": "outcome1710527307074",
+            "text": "issue",
+            "expression": "",
+            "idx": 2
+          }
+        ],
+        "customWidth": 250,
+        "customHeight": 60
+      },
+      {
+        "id": "node1710527313646",
+        "x": 2046.9430825291643,
+        "y": 249.15597549974848,
+        "name": "end-event",
+        "label": "End Event d496",
+        "clazz": "endEvent",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        },
+        "attachment": {},
+        "outcomes": [],
+        "customWidth": 250,
+        "customHeight": 60
+      }
+    ],
+    "edges": [
+      {
+        "id": "fbaea2ce-e9a1-42a9-87b3-ab1c79363aba",
+        "source": "outcome1709814587712",
+        "target": "node1709814906543",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "Scrap",
+        "targetLabel": "Scrap",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "75fbd163-1b5f-43e4-8e78-2b4b28c2ecb9",
+        "source": "outcome1709814620735",
+        "target": "node1709815511774",
+        "startSocket": "right",
+        "endSocket": "top",
+        "label": "Approve",
+        "targetLabel": "Approve",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "e893918c-7215-45fc-b531-7f34177f4286",
+        "source": "node1709814906543",
+        "target": "node1709818531108",
+        "startSocket": "top",
+        "endSocket": "bottom",
+        "label": "Scrap",
+        "targetLabel": "End Event 9146",
+        "style": {}
+      },
+      {
+        "id": "2cc2214f-91f3-4df7-91a9-42e35a11e0a3",
+        "source": "node1709815511774",
+        "target": "node1709818534580",
+        "startSocket": "bottom",
+        "endSocket": "top",
+        "label": "Approve",
+        "targetLabel": "End Event 9358",
+        "style": {}
+      },
+      {
+        "id": "45fc651d-836f-4567-8e69-ad136df82d64",
+        "source": "node1709812893113",
+        "target": "node1709814523000",
+        "startSocket": "bottom",
+        "endSocket": "left",
+        "label": "Start Event",
+        "targetLabel": "Approval",
+        "style": {}
+      },
+      {
+        "id": "0e9bd23e-757b-4edc-b84e-2e00978f3ad9",
+        "source": "outcome1709814609513",
+        "target": "node1709814906543",
+        "startSocket": "right",
+        "endSocket": "bottom",
+        "label": "Use As Is",
+        "targetLabel": "Scrap",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "fbd7ed24-17b1-4364-9da6-60be6b608f32",
+        "source": "outcome1709814613488",
+        "target": "node1709814906543",
+        "startSocket": "right",
+        "endSocket": "bottom",
+        "label": "Rework",
+        "targetLabel": "Scrap",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "7d394653-7468-4a06-a85b-fb53d5ec85cb",
+        "source": "outcome1710527304616",
+        "target": "node1710527313646",
+        "startSocket": "right",
+        "endSocket": "left",
+        "label": "done",
+        "targetLabel": "End Event d496",
+        "expression": "",
+        "style": {}
+      },
+      {
+        "id": "ead0047f-51d2-4537-97de-42fec5f7f2c5",
+        "source": "outcome1710527307074",
+        "target": "node1709814523000",
+        "startSocket": "right",
+        "endSocket": "bottom",
+        "label": "issue",
+        "targetLabel": "First review",
+        "expression": "",
+        "style": {}
+      }
+    ],
+    "transform": {
+      "x": -581,
+      "y": 24,
+      "scale": 0.9,
+      "isAnimated": false
+    },
+    "settings": {
+      "isWorkflowTransformationEnabled": true,
+      "isNodesAlignmentEnabled": true,
+      "workflowMode": "default",
+      "isCompact": false
+    }
+  },
+  "handleAsSingleScript": false,
+  "name": "NCR"
+}

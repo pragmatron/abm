@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/productionMethods",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "productionMethods"
+  },
+  "subtab": "-N_dQz1XxY-Zd9NAIna2",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

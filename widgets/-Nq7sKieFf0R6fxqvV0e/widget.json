@@ -1,0 +1,21 @@
+{
+  "component": "-Np5ZL8mlj-wNDd_UP9I",
+  "gsOptions": {
+    "h": 7,
+    "w": 4,
+    "x": 0,
+    "y": 6
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "perPage": 2,
+  "props": {
+    "backgroundColor": "",
+    "code": "$setCurrentTab('-NnmsKcNUmAqZF3LO6JU')",
+    "icon": "fas fa-comments-dollar",
+    "iconAndTextColor": "#5297ff",
+    "name": "Quotes"
+  },
+  "tab": "-NZQQaXubwP2EQjuVATC",
+  "type": "custom"
+}

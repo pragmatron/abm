@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/attachments",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "attachments"
+  },
+  "subtab": "-NecPiJtSiVbVYLvrews",
+  "tab": "-NZQRbcH19LNNooOkTCU",
+  "type": "DataGrid"
+}

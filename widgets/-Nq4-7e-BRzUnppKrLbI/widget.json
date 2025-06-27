@@ -1,0 +1,15 @@
+{
+  "dependency": "dataGrid/inventoryTransaction",
+  "gsOptions": {
+    "h": 6,
+    "w": 24
+  },
+  "layout": "b-card",
+  "overflow": "height: auto",
+  "props": {
+    "gridId": "inventoryTransaction"
+  },
+  "subtab": "-Nq4-7bIovLVZ_aECNiA",
+  "tab": "-NZQQs9Gj86cPY8Oc51P",
+  "type": "DataGrid"
+}
